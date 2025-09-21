@@ -1,0 +1,1669 @@
+# Copyright (C) 2024 Hostinger
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger Amazon Affiliate Connector 2.0.11\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"affiliate-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-09T12:50:04+00:00\n"
+"PO-Revision-Date: 2025-06-12 08:26+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-affiliate-plugin\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.7.2; wp-6.8"
+
+#. %s: Product ASIN
+#: src/Api/Amazon/ProxyApi/Api/ProductApi.php:72
+#, php-format
+msgid "%s Product does not exist anymore."
+msgstr "s 製品はもう存在しません。%s"
+
+#: src/Localization/AdminTranslations.php:306
+#, fuzzy
+msgid ""
+"<strong>Amazon is available in</strong>: Australia, Belgium, Brazil, Canada, "
+"Egypt, France, Germany, India, Italy, Japan, Mexico, Netherlands, Poland, "
+"Saudi Arabia, Singapore, Spain, Sweden, Turkey, United Arab Emirates, United "
+"Kingdom, United States."
+msgstr ""
+"<strong>アマゾンは</strong>"
+"でご利用いただけます：オーストラリア、ベルギー、ブラジル、カナダ、エジプト、フランス、ドイツ、インド、イタリア、日本、メキシコ、オランダ、ポーランド、サウジアラビア、シンガポール、スペイン、スウェーデン、トルコ、アラブ首長国連邦、英国、米国。"
+
+#: src/Localization/AdminTranslations.php:307
+#, fuzzy
+msgid ""
+"<strong>Mercado Livre is available in</strong>: Argentina, Brazil, Mexico."
+msgstr "<strong>メルカド・リーヴルは</strong>でご利用いただけます：アルゼンチン、ブラジル、メキシコ"
+
+#: src/Localization/AdminTranslations.php:275
+msgid "A table can display up to 6 products."
+msgstr "テーブルには最大で6点の商品を表示できます。"
+
+#: src/Localization/AdminTranslations.php:58
+msgid "Access key"
+msgstr "アクセスキー"
+
+#: src/Localization/AdminTranslations.php:75
+msgid "Access key cannot contain special characters"
+msgstr "アクセスキーに特殊文字を含めることはできません"
+
+#: src/Localization/AdminTranslations.php:76
+msgid "Access key must be 20 characters long"
+msgstr "アクセスキーは20文字にする必要があります"
+
+#: src/Localization/AdminTranslations.php:66
+msgid "Access key must be combination of letters and numbers"
+msgstr "アクセスキーは英数字を組み合わせて入力する必要があります"
+
+#: src/Localization/AdminTranslations.php:222
+msgid "Add"
+msgstr "追加"
+
+# [エディター] for consistency with [ドラッグ＆ドロップエディター]
+# [リンクする] on purpose for clarity
+#: src/Localization/AdminTranslations.php:167
+#| msgid "Add “Link Amazon product(s)” in block editor"
+msgid "Add \"Link Amazon product(s)\" in block editor"
+msgstr "ブロックエディターに「Amazon商品をリンクする」を追加"
+
+#: src/Localization/AdminTranslations.php:109
+msgid "Add a few products and describe them briefly."
+msgstr "商品を数点追加し、それぞれ簡単に説明しましょう。"
+
+#: src/Localization/AdminTranslations.php:97
+msgid "Add a new post"
+msgstr "新しい投稿を追加"
+
+#: src/Localization/AdminTranslations.php:256
+msgid "Add a new table configuration"
+msgstr "新しいテーブル設定を追加"
+
+#: src/Localization/AdminTranslations.php:28
+#: src/Localization/AdminTranslations.php:40
+msgid "Add a product block"
+msgstr "商品ブロックを追加"
+
+#: src/Localization/AdminTranslations.php:247
+msgid "Add at least 2 products to continue."
+msgstr "続行するには少なくとも2つの商品を追加してください。"
+
+#: src/Localization/AdminTranslations.php:252
+msgid "Add at least one product data row."
+msgstr "商品データを1行以上追加してください"
+
+#: src/Localization/AdminTranslations.php:249
+msgid "Add at least two products to continue"
+msgstr "少なくとも2つの商品を追加して続行します"
+
+#: src/Localization/AdminTranslations.php:236
+msgid "Add highlight"
+msgstr "ハイライトを追加"
+
+#: src/Localization/AdminTranslations.php:113
+msgid "Add multiple similar products and compare them."
+msgstr "複数の類似商品を追加して比較しましょう。"
+
+#: src/Localization/AdminTranslations.php:223
+msgid "Add product"
+msgstr "商品を追加"
+
+#: src/Localization/AdminTranslations.php:30
+#: src/Localization/AdminTranslations.php:42
+#: src/Localization/AdminTranslations.php:144
+#: src/Localization/AdminTranslations.php:193
+msgid "Add products"
+msgstr "商品を追加"
+
+#: src/Localization/AdminTranslations.php:235
+msgid "Add row"
+msgstr "行を追加"
+
+#: src/Localization/AdminTranslations.php:201
+msgid "Add table"
+msgstr "テーブルを追加"
+
+#: src/Localization/AdminTranslations.php:199
+msgid "Add the product data"
+msgstr "商品データの追加"
+
+#: src/Localization/AdminTranslations.php:171
+msgid "Add the product(s)"
+msgstr "商品を追加する"
+
+#: src/Localization/AdminTranslations.php:24
+#, fuzzy
+msgid ""
+"Add your API credentials to select a language and improve search results. "
+"This step is optional, but recommended."
+msgstr "API認証情報を追加して言語を選択し、検索結果を改善します。このステップは任意ですが、お勧めします。"
+
+#: src/Localization/AdminTranslations.php:196
+msgid "Affiliate link"
+msgstr "アフィリエイトリンク"
+
+#: src/Localization/AdminTranslations.php:13 src/Admin/Menus.php:54
+#: src/Admin/Menus.php:55 src/Admin/Menus.php:73
+msgid "Affiliate Marketing"
+msgstr "アフィリエイト・マーケティング"
+
+#: src/Setup/Cpts.php:41
+msgid "Affiliate tables"
+msgstr "アフィリエイトのテーブル"
+
+#: src/Localization/AdminTranslations.php:172
+msgid ""
+"After choosing the layout, you need to find the product(s) that you want to "
+"promote in your post. You can copy-paste the ASIN or search the product(s) "
+"manually."
+msgstr "レイアウトを選んだ後は、投稿で宣伝する商品を見つけましょう。ASINをコピー＆ペーストするか、商品を手動で検索できます。"
+
+#: src/Localization/AdminTranslations.php:70
+msgid "Amazon"
+msgstr "Amazon"
+
+# [Amazonアソシエイト] seems to be the official name
+#: src/Localization/AdminTranslations.php:141
+msgid "Amazon Affiliate"
+msgstr "Amazonアソシエイト"
+
+#: src/Localization/Messages.php:16
+msgid "Amazon API returned an error."
+msgstr "Amazon APIにエラーが発生しました。"
+
+#: src/Localization/AdminTranslations.php:189
+msgid "Amazon api was disconnected!"
+msgstr "Amazon APIが切断されました。"
+
+#: src/Localization/AdminTranslations.php:72
+msgid "Amazon Associates"
+msgstr "Amazonアソシエイト"
+
+#: src/Repositories/TableRepository.php:300
+msgid "Amazon Button"
+msgstr "Amazonボタン"
+
+#: src/Localization/AdminTranslations.php:190
+msgid "Amazon settings were successfully saved!"
+msgstr "Amazonの設定が正常に保存されました。"
+
+#: src/Localization/AdminTranslations.php:57
+msgid "API Settings"
+msgstr "API設定"
+
+#: src/Localization/AdminTranslations.php:82
+msgid "API status"
+msgstr "APIステータス"
+
+#: src/Localization/AdminTranslations.php:282
+#, fuzzy
+msgid "Argentina"
+msgstr "アルゼンチン"
+
+#: src/Localization/AdminTranslations.php:268
+msgid ""
+"ASIN is a unique 10-digit code Amazon assigns to products in its catalog. "
+"You can find it on the product detail page."
+msgstr ""
+"ASINとは、Amazonによってカタログに掲載された商品に割り当てられる一意の10桁のコードです。ASINは商品詳細ページから確認できます。"
+
+#: src/Localization/Messages.php:20
+msgid "ASIN validation failed. Please check entered product ASIN!"
+msgstr "ASINの検証に失敗しました。入力した商品のASINを確認してください。"
+
+#. %s: PHP version
+#: hostinger-affiliate-plugin.php:104
+msgid "Attention:"
+msgstr "注："
+
+#: src/Localization/AdminTranslations.php:279
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: src/Localization/AdminTranslations.php:152
+msgid "Back"
+msgstr "戻る"
+
+#: src/Localization/AdminTranslations.php:280
+msgid "Belgium"
+msgstr "ベルギー"
+
+# Not clear what it exactly means. Might need to send a query.
+#. %d: bestseller place
+#: src/Shortcodes/templates/lists/simplified-list.php:37
+#: src/Shortcodes/templates/lists/list-with-description.php:16
+#: src/Shortcodes/templates/lists/horizontal-cards.php:20
+msgid "Bestseller #%d"
+msgstr "ベストセラー#%d"
+
+#: src/Localization/AdminTranslations.php:281
+msgid "Brazil"
+msgstr "ブラジル"
+
+#: src/Models/Product.php:275
+msgid "Buy now"
+msgstr "今すぐ購入"
+
+#: src/Models/Product.php:279
+msgid "Buy on Amazon"
+msgstr "Amazonで購入"
+
+#: src/Localization/AdminTranslations.php:283
+msgid "Canada"
+msgstr "カナダ"
+
+#: src/Setup/Blocks.php:248 src/Localization/AdminTranslations.php:205
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/Localization/AdminTranslations.php:151
+msgid ""
+"Check out our quick guide for tips on how to start using this plugin and "
+"start earning."
+msgstr "このプラグインを使用して収入を得るためのヒントについては、当社のクイックガイドをご覧ください。"
+
+#: src/Setup/Blocks.php:206
+msgid "Check your search term and try again"
+msgstr "検索キーワードを確認して、もう一度お試しください。"
+
+#: src/Localization/AdminTranslations.php:64
+msgid "Choose Amazon region ..."
+msgstr "Amazonの地域を選択 ..."
+
+#: src/Localization/AdminTranslations.php:105
+msgid ""
+"Choose any template for your needs  – all of them are integrated with the "
+"Gutenberg editor."
+msgstr "ご希望のテンプレートを選択してください（すべてのテンプレートがGutenbergエディターと統合されています）。"
+
+#: src/Localization/AdminTranslations.php:35
+#: src/Localization/AdminTranslations.php:47
+msgid ""
+"Choose between a single product card, multiple product list, or comparison "
+"table."
+msgstr "単一商品、複数商品、比較表のいずれかから選択します。"
+
+#: src/Localization/AdminTranslations.php:29
+#: src/Localization/AdminTranslations.php:41
+msgid "Choose how to display products"
+msgstr "商品の表示方法を選択"
+
+#: src/Localization/AdminTranslations.php:169
+msgid "Choose the layout for the product(s) block"
+msgstr "商品ブロックのレイアウトを選択する"
+
+#: src/Localization/AdminTranslations.php:259
+msgid "Choose the table configuration"
+msgstr "テーブルの設定を選択してください"
+
+#: src/Localization/AdminTranslations.php:136
+#| msgid "Choose which products to compare and set up your table’s rows."
+msgid "Choose which products to compare and set up your table's rows."
+msgstr "比較する商品を選択して、比較表の行を設定します。"
+
+#: src/Localization/AdminTranslations.php:204
+msgid "Close"
+msgstr "閉じる"
+
+#: src/Localization/AdminTranslations.php:132
+msgid "Coming soon"
+msgstr "近日公開"
+
+#: src/Localization/AdminTranslations.php:112
+msgid "Comparison Table"
+msgstr "比較表"
+
+#: src/Localization/AdminTranslations.php:124
+msgid "Comparison tables"
+msgstr "比較表"
+
+#: src/Localization/AdminTranslations.php:138
+msgid "Configure"
+msgstr "設定"
+
+# [確認する] on purpose for clarity
+#: src/Setup/Blocks.php:254
+msgid "Confirm selection"
+msgstr "選択を確認"
+
+#: src/Localization/AdminTranslations.php:81
+msgid "Connect"
+msgstr "接続"
+
+#: src/Localization/AdminTranslations.php:79
+msgid "Connect Amazon account"
+msgstr "Amazonアカウントを接続"
+
+#: src/Localization/AdminTranslations.php:103
+msgid "Connect With Your Amazon Account"
+msgstr "Amazonアカウントに接続"
+
+#: src/Localization/AdminTranslations.php:18
+#: src/Localization/AdminTranslations.php:95
+msgid "Connect Your Amazon Account"
+msgstr "Amazonアカウントを接続"
+
+#: src/Localization/AdminTranslations.php:92
+msgid "Connect your Amazon Associates Account"
+msgstr "Amazonアソシエイトアカウントを連携"
+
+#: src/Localization/AdminTranslations.php:15
+#| msgid "Connect  your Amazon Associates Account"
+msgid "Connect your Amazon Associates account"
+msgstr "Amazonアソシエイトアカウントを連携"
+
+#: src/Localization/AdminTranslations.php:51
+#: src/Localization/AdminTranslations.php:84
+msgid "Connected"
+msgstr "接続済み"
+
+# Assuming ID numbers follow this string
+#: src/Localization/AdminTranslations.php:86
+msgid "Connected to Partner ID:"
+msgstr "接続中のパートナーID："
+
+#: src/Errors/AmazonApiError.php:41 src/Errors/AmazonApiError.php:91
+msgid "Contact Hostinger support for further assistance."
+msgstr "ご不明な点がある場合はHostingerサポートまでお問い合わせください。"
+
+#: src/Localization/AdminTranslations.php:203
+msgid "Continue"
+msgstr "続ける"
+
+#: src/Localization/AdminTranslations.php:137
+msgid "Copied successfully!"
+msgstr "正常にコピーされました。"
+
+#: src/Localization/AdminTranslations.php:62
+msgid "Country"
+msgstr "国"
+
+# This should be both CTA and title, so added [する] for consistency
+#: src/Localization/AdminTranslations.php:87
+#: src/Localization/AdminTranslations.php:165
+#: src/Localization/AdminTranslations.php:177
+msgid "Create a new post"
+msgstr "新しい投稿を作成する"
+
+#: src/Localization/AdminTranslations.php:27
+#: src/Localization/AdminTranslations.php:39
+#: src/Localization/AdminTranslations.php:303
+msgid "Create a post"
+msgstr "投稿を作成"
+
+#: src/Localization/AdminTranslations.php:301
+msgid "Create a post to start promoting products"
+msgstr "投稿を作成して商品の宣伝を始めましょう"
+
+#: src/Localization/AdminTranslations.php:123
+#: src/Localization/AdminTranslations.php:125
+msgid "Create and manage your comparison tables."
+msgstr "比較表の作成および管理を行います。"
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Create and promote products using affiliate links from different "
+"marketplaces. Easily manage and display affiliate products on your site."
+msgstr ""
+"様々なマーケットプレイスからアフィリエイトリンクを使用して商品を作成し、宣伝することができます。アフィリエイト商品を簡単に管理し、サイトに表示できます。"
+
+#: src/Localization/AdminTranslations.php:53
+msgid "Create post"
+msgstr "投稿を作成"
+
+#: src/Localization/AdminTranslations.php:180
+#| msgid "Create new table"
+msgid "Create table"
+msgstr "比較表を作成"
+
+#: src/Localization/AdminTranslations.php:134
+msgid "Create your first comparison table"
+msgstr "最初の比較表を作成する"
+
+#: src/Localization/AdminTranslations.php:231
+msgid "Date created"
+msgstr "作成日"
+
+#: src/Localization/AdminTranslations.php:206
+msgid "Delete"
+msgstr "削除"
+
+#: src/Localization/AdminTranslations.php:212
+msgid "Delete product?"
+msgstr "商品を削除しますか？"
+
+#: src/Localization/AdminTranslations.php:207
+#| msgid "Delete table?"
+msgid "Delete table"
+msgstr "テーブルを削除"
+
+#: src/Localization/AdminTranslations.php:211
+msgid "Delete this table?"
+msgstr "テーブルを削除しますか？"
+
+#: src/Localization/AdminTranslations.php:305
+#, fuzzy
+msgid ""
+"Depending on your country, different marketplaces may be available to you."
+msgstr "お住まいの国によって、利用できるマーケットプレイスは異なります。"
+
+#: src/Localization/AdminTranslations.php:228
+msgid "Determine who will see the table"
+msgstr "テーブルの閲覧者を選択してください"
+
+#: src/Localization/AdminTranslations.php:88
+msgid "Disconnect"
+msgstr "切断"
+
+#: src/Localization/AdminTranslations.php:85
+msgid "Disconnected"
+msgstr "切断済み"
+
+# Not clear what it exactly means. Might need to send a query.
+#. %s: product asin.
+#: src/Localization/AdminTranslations.php:263
+#, php-format
+msgid "Duplicate ASIN: %s was not added."
+msgstr "重複したASIN：%sは追加されませんでした。"
+
+#: src/Localization/AdminTranslations.php:101
+msgid "Earn Commissions"
+msgstr "報酬を獲得"
+
+#: src/Localization/AdminTranslations.php:142
+msgid "Edit your Amazon API details"
+msgstr "Amazon APIの詳細を編集"
+
+#: src/Localization/AdminTranslations.php:284
+msgid "Egypt"
+msgstr "エジプト"
+
+#: src/Localization/AdminTranslations.php:250
+msgid "Enable at least two products to continue"
+msgstr "続行するには、2点以上の商品を有効化してください"
+
+# Omitted [。] for consistency.
+# Assumed the label names are localisable.
+#: src/Localization/AdminTranslations.php:241
+msgid "Enter text label. For example: Best Price"
+msgstr "テキストラベルを入力してください（例：ベストプライス）"
+
+#: src/Localization/AdminTranslations.php:202
+msgid "Enter your table name"
+msgstr "テーブル名を入力"
+
+#. %s: missing field key name
+#: src/Localization/Messages.php:12
+#, php-format
+msgid "Field %s is empty."
+msgstr "%sのフィールドが未入力です。"
+
+# Ref: https://ja.wikipedia.org/wiki/Amazon_Product_Advertising_API
+#: src/Localization/AdminTranslations.php:19
+msgid "Fill API details from Amazon Product Advertising dashboard to start"
+msgstr "開始するにはAmazon商品広告のダッシュボードに記載されたAPIの詳細情報を入力してください"
+
+#: src/Localization/AdminTranslations.php:54
+msgid "Find your API credentials"
+msgstr "API認証情報の見つけ方"
+
+#: src/Localization/AdminTranslations.php:154
+msgid "Find your Tracking ID"
+msgstr "トラッキングIDの見つけ方"
+
+#: src/Localization/AdminTranslations.php:166
+msgid ""
+"First thing first, you need to create a post. Make sure to create the post "
+"with the specific niche to be more related with your visitors."
+msgstr "まず最初に、投稿を作成する必要があります。訪問者に対して関連性が高くなるよう、特定のテーマに沿った投稿を作成しましょう。"
+
+#: src/Localization/AdminTranslations.php:94
+msgid ""
+"Follow this step-by-step guide to start earning your affiliate commission in "
+"no time."
+msgstr "こちらの手順ガイドに従って、すぐにアフィリエイト報酬を獲得する準備を整えましょう。"
+
+#: src/Localization/AdminTranslations.php:37
+#: src/Localization/AdminTranslations.php:49
+msgid "For each product, generate and paste your affiliate link."
+msgstr "各商品ごとにアフィリエイトリンクを生成して貼り付けてください。"
+
+#: src/Localization/AdminTranslations.php:285
+msgid "France"
+msgstr "フランス"
+
+#: src/Localization/AdminTranslations.php:155
+msgid "General"
+msgstr "一般"
+
+#: src/Localization/AdminTranslations.php:246
+msgid "General settings"
+msgstr "一般設定"
+
+#: src/Localization/AdminTranslations.php:286
+msgid "Germany"
+msgstr "ドイツ"
+
+#: src/Localization/AdminTranslations.php:114
+msgid "Get Started"
+msgstr "今すぐ始める"
+
+#: src/Localization/AdminTranslations.php:148
+msgid "Get started with our plugin"
+msgstr "プラグインの利用を開始しましょう"
+
+#: src/Localization/AdminTranslations.php:14
+msgid "Getting Started"
+msgstr "利用を開始"
+
+#: src/Localization/AdminTranslations.php:126
+msgid "Getting started"
+msgstr "利用を開始"
+
+#: src/Localization/AdminTranslations.php:150
+msgid "Got it"
+msgstr "了解"
+
+# Not clear what it exactly means. Might need to send a query.
+#. %s: Amazon store region
+#: src/Setup/Blocks.php:222
+#, php-format
+msgid "Here you will see products from your store region on <b>%s</b>."
+msgstr "ここでは、<b>%s</b>のストア地域からの商品が表示されます。"
+
+#: src/Setup/Blocks.php:224
+msgid "Here you will see products from your store region."
+msgstr "ここには、設定した地域のストアの商品が表示されます。"
+
+#: src/Localization/AdminTranslations.php:238
+msgid "Highlight settings"
+msgstr "ハイライト設定"
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: src/Localization/AdminTranslations.php:162
+msgid "Hostinger Academy"
+msgstr "Hostingerアカデミー"
+
+#: src/Localization/AdminTranslations.php:12
+msgid "Hostinger Affiliate"
+msgstr "Hostinger Affiliate"
+
+#. Name of the plugin
+#, fuzzy
+#| msgid "Hostinger Amazon Affiliate Marketing Tools"
+msgid "Hostinger Affiliate Marketing Tools"
+msgstr "Hostinger Amazon Affiliate Marketing Tool"
+
+#: src/Admin/Surveys/AmazonSurvey.php:24
+#, fuzzy
+msgid "How could we improve the Hostinger Affiliate plugin for Amazon?"
+msgstr "Amazon用Hostingerアフィリエイトプラグインを改善するには？"
+
+#: src/Admin/Surveys/MercadoSurvey.php:24
+#, fuzzy
+msgid "How could we improve the Hostinger Affiliate plugin for Mercado Libre?"
+msgstr "Mercado LibreのHostinger Affiliateプラグインを改善するには？"
+
+#: src/Localization/AdminTranslations.php:178
+msgid "How to create a product listing using our plugin?"
+msgstr "プラグインを使って商品リストを作成するには？"
+
+#: src/Localization/AdminTranslations.php:16
+msgid "How to create a product listing with our plugin?"
+msgstr "プラグインで商品リストを作成するには？"
+
+# Not clear what it exactly means. Might need to send a query.
+#: src/Localization/AdminTranslations.php:224
+msgid "How to do that?"
+msgstr "-"
+
+#: src/Localization/AdminTranslations.php:198
+msgid "How to get your affiliate link"
+msgstr "アフィリエイトリンクの取得方法"
+
+#: src/Localization/AdminTranslations.php:163
+#| msgid ""
+#| "How to Set Up Amazon Affiliate with Hostinger Amazon Affiliate Connector -"
+#| " Step by step guide"
+msgid ""
+"How to Set Up Amazon Affiliate with Hostinger Amazon Affiliate - Step by "
+"step guide"
+msgstr "Hostinger Amazon Affiliateを使用してAmazonアソシエイトの設定を行う方法 - 手順ガイド"
+
+# Need context
+#: src/Localization/AdminTranslations.php:164
+msgid "How to use this plugin?"
+msgstr "このプラグインの使い方"
+
+#: src/Admin/Surveys/AmazonSurvey.php:20
+#, fuzzy
+msgid "How would you rate your experience publishing Amazon Affiliate links?"
+msgstr "アマゾンのアフィリエイト・リンクを公開した経験をどう評価しますか？"
+
+#: src/Admin/Surveys/MercadoSurvey.php:20
+#, fuzzy
+msgid ""
+"How would you rate your experience publishing Mercado Libre Affiliate links?"
+msgstr "メルカド・リブレのアフィリエイトリンクを発行した経験をどう評価しますか？"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com"
+
+#: src/Errors/AmazonApiError.php:76
+msgid ""
+"If the problems persists, contact Amazon Associates support for further "
+"assistance."
+msgstr "問題が解決しない場合は、Amazonアソシエイトのサポートにお問い合わせください。"
+
+#: src/Errors/AmazonApiError.php:66 src/Errors/AmazonApiError.php:71
+msgid ""
+"If you're still having trouble after checking your settings, contact Amazon "
+"Associates support for further assistance."
+msgstr "設定を確認しても問題が解決しない場合は、Amazonアソシエイトのサポートまでお問い合わせください。"
+
+#: src/Localization/AdminTranslations.php:21
+msgid ""
+"In order to get the Amazon API information, you need to log in to your <b>"
+"Amazon Associate</b> account."
+msgstr "Amazon APIの情報を取得するには、<b>Amazonアソシエイト</b>アカウントにログインする必要があります。"
+
+#: src/Localization/AdminTranslations.php:34
+msgid ""
+"In the editor, type '/' or click the '+' icon. Then, select 'Link Amazon "
+"products'."
+msgstr "エディターで「/」を入力するか、「+」アイコンをクリックしてから、「Amazon商品をリンクする」を選択します。"
+
+#: src/Localization/AdminTranslations.php:46
+msgid ""
+"In the editor, type '/' or click the '+' icon. Then, select 'Link Mercado "
+"Livre products'."
+msgstr "エディターで「/」を入力するか、「+」アイコンをクリックしてから、「Mercado Livre商品をリンクする」を選択します。"
+
+#: src/Localization/AdminTranslations.php:287
+msgid "India"
+msgstr "インド"
+
+#: src/Errors/AmazonApiError.php:80
+msgid "Input parameter relating to request is invalid or is missing."
+msgstr "リクエストに関連する入力パラメータが無効または欠けています。"
+
+#: src/Localization/AdminTranslations.php:96
+msgid "Insert API code inside the Amazon Product Advertising dashboard."
+msgstr "Amazon商品広告のダッシュボードにAPIコードを挿入してください。"
+
+#: src/Localization/AdminTranslations.php:168
+#| msgid ""
+#| "Inside Block Editor, you can call Hostinger Amazon Affiliate in the block "
+#| "options. You can call it by typing “/” or click the add button in the "
+#| "right side of the paragraph."
+msgid ""
+"Inside Block Editor, you can call Hostinger Amazon Affiliate in the block "
+"options. You can call it by typing \"/\" or click the add button in the "
+"right side of the paragraph."
+msgstr ""
+"ブロックエディターでは、ブロックオプションとしてHostinger Amazon "
+"Affiliateを利用できます。「/」と入力するか、段落の右側にある追加ボタンをクリックして利用できます。"
+
+#: src/Localization/AdminTranslations.php:209
+msgid "Invalid ASIN"
+msgstr "無効なASIN"
+
+#: src/Rest/SettingsRoutes.php:222
+#, fuzzy
+msgid "Invalid locale selected. Please choose a valid locale."
+msgstr "無効なロケールが選択されました。有効なロケールを選択してください。"
+
+# Need context
+#: src/Shortcodes/ProductTableShortcode.php:161
+#: src/Shortcodes/templates/product-card.php:60
+#: src/Rest/templates/search-results.php:86
+#: src/Shortcodes/templates/lists/simplified-list.php:66
+#: src/Shortcodes/templates/lists/list-with-description.php:72
+#: src/Shortcodes/templates/lists/horizontal-cards.php:74
+msgid "Is prime"
+msgstr "プライム商品"
+
+#: src/Localization/AdminTranslations.php:288
+msgid "Italy"
+msgstr "イタリア"
+
+#: src/Localization/AdminTranslations.php:289
+msgid "Japan"
+msgstr "日本"
+
+#: src/Localization/AdminTranslations.php:240
+msgid "Label"
+msgstr "ラベル"
+
+#: src/Localization/AdminTranslations.php:60
+msgid "Language"
+msgstr "言語"
+
+#: src/Localization/AdminTranslations.php:63
+msgid "Language of Preference"
+msgstr "言語設定"
+
+#: src/Localization/AdminTranslations.php:146
+msgid ""
+"Learn how to create product listings using Hostinger's affiliate plugin – "
+"and start earning commission."
+msgstr "Hostingerのアフィリエイトプラグインを使用して商品リストを作成する方法について学び、報酬を獲得しましょう。"
+
+#: src/Localization/AdminTranslations.php:147
+msgid ""
+"Learn how to use Hostinger's Amazon Affiliate with our tutorials and "
+"documentations"
+msgstr "チュートリアルとドキュメントからHostingerのAmazon Affiliateの使い方を確認します。"
+
+#: src/Localization/AdminTranslations.php:127
+msgid "Learn how to use our affiliate plugin."
+msgstr "アフィリエイト・プラグインの使用方法をご覧ください。"
+
+#: src/Localization/AdminTranslations.php:149
+msgid "Learn how to use our plugin"
+msgstr "プラグインの使い方について学ぶ"
+
+# Need context
+#: src/Localization/AdminTranslations.php:145
+msgid "Learn more on how to use this plugin"
+msgstr "このプラグインの使い方について詳しく学ぶ"
+
+#: src/Localization/AdminTranslations.php:159
+msgid "Leave without saving"
+msgstr "保存せずに終了"
+
+#: src/Localization/AdminTranslations.php:99
+msgid "Link Amazon Products"
+msgstr "Amazon商品をリンクする"
+
+#: src/Localization/AdminTranslations.php:83
+#| msgid ""
+#| "Link your Amazon account to your website, start promoting products, and "
+#| "earn rewards."
+msgid ""
+"Link your Amazon account to your website, start promoting products, and earn "
+"rewards. No API key required."
+msgstr "AmazonアカウントをWebサイトと連携し、商品を紹介して報酬を獲得しましょう。APIキーは不要です。"
+
+# Need context
+#: src/Localization/AdminTranslations.php:20
+msgid "Log in to Amazon Associate dashboard"
+msgstr "Amazonアソシエイトのダッシュボードにログインする"
+
+#: src/Localization/AdminTranslations.php:22
+msgid "Login"
+msgstr "ログイン"
+
+# Ref:
+# https://affiliate.amazon.co.jp/help/node/topic/G5KVDATAT5RKBBBG
+#: src/Errors/AmazonApiError.php:64
+msgid ""
+"Looks like there's a configuration issue with your Amazon Associates account."
+" The access key you provided is not linked to a primary store in your "
+"approved Amazon Associates account. To fix this, head over to Associate "
+"Central and check your account settings. Make sure the access key you're "
+"using is associated with a primary store that's been approved by Amazon "
+"Associates."
+msgstr ""
+"ご利用中のAmazonアソシエイトアカウントの設定に問題のある可能性があります。提供されたアクセスキーが、承認済みのAmazonアソシエイトアカウントの主要なストアに関連付けられていません。この問題を解決するには、アソシエイト・セントラルにアクセスしてアカウント設定を確認してください。使用中のアクセスキーがAmazonアソシエイトによって承認された主要なストアに関連付けられていることを確認してください。"
+
+#: src/Errors/AmazonApiError.php:94
+msgid ""
+"Looks like there's a configuration issue with your Amazon Associates account."
+" The access key you provided is not valid. To fix this, head over to "
+"Associate Central and check your account settings."
+msgstr ""
+"ご利用中のAmazonアソシエイトアカウントの設定に問題のある可能性があります。提供されたアクセスキーが無効です。この問題を解決するには、アソシエイト・セントラルにアクセスしてアカウント設定を確認してください。"
+
+# Ref for [マーケットプレイス]:
+# https://www.amazon.co.jp/gp/help/customer/display.html?nodeId=GEF528GN65XSJ7V8
+#: src/Errors/AmazonApiError.php:69
+msgid ""
+"Looks like there's a configuration issue with your Amazon Associates account."
+" The partner tag you provided is not linked to the access key you’re using. "
+"To fix this, head over to Associate Central and check your account settings. "
+"Make sure the partner tag you're using is associated with a valid store in "
+"your Amazon Associates account for the requested marketplace."
+msgstr ""
+"ご利用中のAmazonアソシエイトアカウントの設定に問題のある可能性があります。提供されたパートナータグが、使用中のアクセスキーに関連付けられていません。この問題を解決するには、アソシエイト・セントラルにアクセスしてアカウント設定を確認してください。使用中のパートナータグがリクエストされたマーケットプレイスに対応するAmazonアソシエイトアカウント内の有効なストアに関連付けられていることを確認してください。"
+
+#: src/Errors/AmazonApiError.php:96
+msgid ""
+"Make sure the access key you're using is correct. If you're still having "
+"trouble after checking your settings, contact Amazon Associates support for "
+"further assistance."
+msgstr ""
+"使用しているアクセスキーが正しいことを確認してください。設定を確認しても問題が解決しない場合は、Amazonアソシエイトのサポートまでお問い合わせください。"
+
+#: src/Localization/AdminTranslations.php:131
+msgid "Manage"
+msgstr "管理"
+
+#: src/Localization/AdminTranslations.php:17
+msgid "Manage marketplaces"
+msgstr "マーケットプレイスを管理"
+
+#: src/Localization/AdminTranslations.php:139
+msgid "Manage table"
+msgstr "比較表を管理"
+
+#: src/Localization/AdminTranslations.php:116
+msgid "Manage your Amazon API and other configurations"
+msgstr "Amazon APIなどの設定を管理します。"
+
+#: src/Localization/AdminTranslations.php:129
+#: src/Localization/AdminTranslations.php:187
+msgid "Manage your Amazon API and other settings."
+msgstr "Amazon APIやその他の設定を管理します。"
+
+#: src/Localization/AdminTranslations.php:110
+#, fuzzy
+msgid "Marketplace availability by country"
+msgstr "国別マーケットプレイス"
+
+#: src/Localization/AdminTranslations.php:26
+#: src/Localization/AdminTranslations.php:153
+#: src/Localization/AdminTranslations.php:237
+msgid "Menu"
+msgstr "メニュー"
+
+#: src/Localization/AdminTranslations.php:71
+msgid "Mercado Livre"
+msgstr "Mercado Livre"
+
+#: src/Localization/AdminTranslations.php:73
+msgid "Mercado Livre Partner"
+msgstr "Mercado Livreパートナー"
+
+#: src/Localization/AdminTranslations.php:111
+#, fuzzy
+msgid "Mercado Livre Partner settings"
+msgstr "メルカード・ライブル・パートナー設定"
+
+#: src/Localization/AdminTranslations.php:290
+msgid "Mexico"
+msgstr "メキシコ"
+
+#: src/Localization/AdminTranslations.php:267
+msgid "More information"
+msgstr "詳細情報"
+
+#: src/Localization/AdminTranslations.php:108
+msgid "Multiple Product List"
+msgstr "複数商品リスト"
+
+#: src/Localization/AdminTranslations.php:277
+msgid "Name"
+msgstr "名前"
+
+#: src/Localization/AdminTranslations.php:253
+msgid "Name field not added to all product data rows."
+msgstr "すべての商品データ行に名前フィールドが追加されていません。"
+
+#: src/Localization/AdminTranslations.php:291
+msgid "Netherlands"
+msgstr "オランダ"
+
+#: src/Localization/AdminTranslations.php:120
+msgid "New comparison table"
+msgstr "新しい商品比較表"
+
+#: src/Localization/AdminTranslations.php:182
+msgid "New table"
+msgstr "新しいテーブル"
+
+#: src/Shortcodes/templates/product-list.php:28
+msgid "No layout selected."
+msgstr "レイアウトが選択されていません。"
+
+# Need context
+#: src/Localization/AdminTranslations.php:260
+msgid "No matching options"
+msgstr "一致するオプションはありません"
+
+#: src/Localization/AdminTranslations.php:220
+msgid "No options"
+msgstr "オプションなし"
+
+#: src/Setup/Blocks.php:203
+msgid "No products found"
+msgstr "商品が見つかりませんでした"
+
+#: src/Errors/AmazonApiError.php:99 src/Rest/ItemsRoutes.php:67
+msgid "No results found."
+msgstr "一致する結果が見つかりませんでした。"
+
+#: src/Localization/AdminTranslations.php:304
+msgid "Not now"
+msgstr "スキップ"
+
+#: src/Localization/AdminTranslations.php:133
+msgid "Nothing found"
+msgstr "何も見つかりませんでした"
+
+#: src/Localization/AdminTranslations.php:69
+msgid ""
+"Once you remove it, fetching products from this marketplace in WordPress "
+"will be turned off. Your existing product listings won\\’t be affected. You "
+"can re-add this marketplace anytime."
+msgstr ""
+"削除すると、WordPressでこのマーケットプレイスから商品を取得できなくなります。既存の商品リストには影響がありませんのでご安心ください。マーケットプレイスはいつでも再追加できます。"
+
+#: src/Localization/AdminTranslations.php:175
+msgid "Open full guide"
+msgstr "ガイド全文を開く"
+
+#: src/Localization/AdminTranslations.php:117
+msgid "Open guide"
+msgstr "ガイドを開く"
+
+#: src/Localization/AdminTranslations.php:55
+msgid "Optional"
+msgstr "任意"
+
+#: src/Errors/AmazonApiError.php:53
+msgid "OR"
+msgstr "または"
+
+#: src/Localization/AdminTranslations.php:208
+msgid "or"
+msgstr "または"
+
+#: src/Localization/AdminTranslations.php:36
+msgid "Paste the ASIN code or type to search for products you want to promote."
+msgstr "ASINコードを貼り付けるか、キーワードを入力して宣伝する商品を検索してください。"
+
+#: src/Localization/AdminTranslations.php:48
+msgid ""
+"Paste the Product ID or type to search for products you want to promote."
+msgstr "商品IDを貼り付けるか、キーワードを入力して宣伝する商品を検索してください。"
+
+#: src/Localization/AdminTranslations.php:276
+msgid "Paste the shortcode in Block Editor where you want the table to appear."
+msgstr "ブロックエディターで、比較表を表示する場所にショートコードを貼り付けます。"
+
+#: src/Localization/AdminTranslations.php:31
+#: src/Localization/AdminTranslations.php:43
+#: src/Localization/AdminTranslations.php:197
+msgid "Paste your affiliate link"
+msgstr "アフィリエイトリンクを貼り付ける"
+
+#: src/Shortcodes/ShortcodeManager.php:56
+msgid "Please choose display type!"
+msgstr "表示タイプを選択してください"
+
+#: src/Localization/AdminTranslations.php:184
+msgid "Please enter a keyword for search!"
+msgstr "検索キーワードを入力してください"
+
+#: src/Shortcodes/ProductListShortcode.php:113
+#| msgid "Please enter keywords!"
+msgid "Please enter keyword(-s)!"
+msgstr "キーワードを入力してください"
+
+#: src/Shortcodes/ProductCardShortcode.php:88
+#: src/Shortcodes/ProductListShortcode.php:125
+msgid "Please enter product(-s) ASIN(-s)!"
+msgstr "商品のASINを入力してください"
+
+#: src/Localization/AdminTranslations.php:292
+msgid "Poland"
+msgstr "ポーランド"
+
+#: src/Repositories/TableRepository.php:298
+#: src/Localization/AdminTranslations.php:266
+msgid "Price"
+msgstr "価格"
+
+#: src/Repositories/TableRepository.php:299
+msgid "Prime Status"
+msgstr "プライムステータス"
+
+#: src/Setup/Blocks.php:238
+msgid "product"
+msgstr "を選択中"
+
+#: src/Localization/AdminTranslations.php:200
+msgid "Product data"
+msgstr "商品データ"
+
+#: src/Localization/AdminTranslations.php:118
+msgid "Product ID"
+msgstr "商品ID"
+
+#: src/Localization/AdminTranslations.php:195
+msgid "Product URL"
+msgstr "商品URL"
+
+#: src/Localization/AdminTranslations.php:274
+msgid "Product visible"
+msgstr "商品の表示"
+
+#: src/Localization/AdminTranslations.php:270
+msgid "Products"
+msgstr "商品"
+
+#: src/Setup/Blocks.php:239
+msgid "products"
+msgstr "を選択中"
+
+#: src/Shortcodes/ProductCardShortcode.php:98
+#: src/Shortcodes/ProductListShortcode.php:136
+msgid "Products not fetched from DB and/or API. Please check debug logs."
+msgstr "商品をデータベースまたはAPIから取得できませんでした。デバッグログを確認してください。"
+
+#. %s: Amazon store region
+#: src/Setup/Blocks.php:188
+#, php-format
+msgid ""
+"Products that shown in here is from your store region (%1$s). You can change "
+"store region in <a href=\"%2$s\">Settings page</a>."
+msgstr ""
+"ここに表示されている商品は、設定したストア地域（%1$s）のものです。ストアの地域は<a href=\"%2$s\">設定ページ</a>から変更できます。"
+
+#: src/Localization/AdminTranslations.php:194
+msgid "Products to be compared"
+msgstr "比較対象の商品"
+
+#: src/Localization/AdminTranslations.php:233
+msgid "Publish"
+msgstr "公開"
+
+#: src/Localization/AdminTranslations.php:32
+#: src/Localization/AdminTranslations.php:44
+#: src/Localization/AdminTranslations.php:173
+msgid "Publish the post"
+msgstr "投稿を公開する"
+
+# Assuming it's a status
+#: src/Localization/AdminTranslations.php:230
+msgid "Published"
+msgstr "公開済み"
+
+# Need context
+#: src/Localization/AdminTranslations.php:107
+msgid "Put focus on one product only."
+msgstr "1点の商品のみに注力できます。"
+
+# Need to check with the context
+#: src/Localization/AdminTranslations.php:225
+msgid "Quick way to add this table inside the Block Editor."
+msgstr "このテーブルをブロックエディターに追加するための簡単な方法"
+
+# Assuming it's a CTA
+#: src/Localization/AdminTranslations.php:176
+msgid "Read full documentation"
+msgstr "ドキュメント全文を読む"
+
+#: src/Localization/AdminTranslations.php:74
+msgid "Remove"
+msgstr "削除"
+
+#: src/Localization/AdminTranslations.php:67
+msgid "Remove Amazon?"
+msgstr "Amazonを削除しますか？"
+
+#: src/Localization/AdminTranslations.php:239
+msgid "Remove highlight"
+msgstr "ハイライトを削除"
+
+#: src/Localization/AdminTranslations.php:68
+msgid "Remove Mercado Livre?"
+msgstr "Mercado Livreを削除しますか？"
+
+#: src/Errors/AmazonApiError.php:102
+msgid "Request to Amazon API failed."
+msgstr "Amazon APIへのリクエストの送信に失敗しました。"
+
+#: src/Localization/AdminTranslations.php:244
+msgid "Row data"
+msgstr "行データ"
+
+#: src/Localization/AdminTranslations.php:271
+msgid "Rows"
+msgstr "行"
+
+#: src/Localization/AdminTranslations.php:294
+msgid "Saudi Arabia"
+msgstr "サウジアラビア"
+
+#: src/Localization/AdminTranslations.php:80
+msgid "Save"
+msgstr "保存"
+
+#: src/Localization/AdminTranslations.php:160
+msgid "Save & leave"
+msgstr "保存して終了"
+
+#: src/Localization/AdminTranslations.php:156
+#: src/Localization/AdminTranslations.php:245
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: src/Localization/AdminTranslations.php:157
+msgid "Save changes?"
+msgstr "変更を保存しますか？"
+
+#: src/Setup/Blocks.php:179 src/Localization/AdminTranslations.php:188
+msgid "Search"
+msgstr "検索"
+
+#: src/Localization/AdminTranslations.php:100
+msgid ""
+"Search for <b>Link to Amazon Products</b> in Gutenberg Blocks, find the "
+"product(s) you want to add, and publish the post."
+msgstr "Gutenbergブロックで<b>Amazon商品へのリンク</b>を検索し、追加する商品を見つけて、投稿を公開してください。"
+
+#: src/Setup/Blocks.php:217
+msgid "Search for product name that you want to add to your blog post."
+msgstr "ブログ投稿に追加する商品名を検索してください。"
+
+#: src/Localization/AdminTranslations.php:243
+msgid "Search for products or enter Product ID"
+msgstr "商品を検索するか、商品IDを入力してください"
+
+#: src/Localization/AdminTranslations.php:242
+msgid "Search for products or enter the ASIN code"
+msgstr "商品を検索またはASINコードを入力します"
+
+# Need context
+#: src/Localization/AdminTranslations.php:221
+msgid "Search for the product in Amazon"
+msgstr "Amazonで商品を検索します"
+
+#: src/Setup/Blocks.php:200 src/Setup/Blocks.php:211
+msgid "Search icon"
+msgstr "検索アイコン"
+
+#: src/Setup/Blocks.php:177
+msgid "Search product name ..."
+msgstr "商品名を検索します ..."
+
+#: src/Localization/AdminTranslations.php:183
+msgid "Search your table collections"
+msgstr "比較表の検索"
+
+#: src/Setup/Blocks.php:214
+msgid "Searched products will appear here"
+msgstr "検索した商品はここに表示されます"
+
+#: src/Localization/AdminTranslations.php:59
+msgid "Secret key"
+msgstr "シークレットキー"
+
+#: src/Localization/AdminTranslations.php:78
+msgid "Secret key contains of numbers, letters and special characters"
+msgstr "シークレットキーには数字、文字、特殊文字を含めてください"
+
+#: src/Localization/AdminTranslations.php:77
+msgid "Secret key must be 40 characters long"
+msgstr "シークレットキーは40文字にする必要があります"
+
+#: src/Localization/AdminTranslations.php:25
+#, fuzzy
+msgid "Select a marketplace you’ll use to promote products"
+msgstr "商品の販売促進に利用するマーケットプレイスを選ぶ"
+
+#: src/Setup/Blocks.php:234
+msgid "Select at least 2 products to continue"
+msgstr "続行するには、少なくとも2つの商品を選択してください"
+
+#: src/Localization/AdminTranslations.php:61
+msgid "Select at least one provider"
+msgstr "少なくとも1つのプロバイダーを選択してください"
+
+#: src/Localization/AdminTranslations.php:56
+msgid "Select country first to find matching tracking ID"
+msgstr "国を選択して、一致するトラッキングIDを見つけてください"
+
+#: src/Localization/AdminTranslations.php:215
+#, fuzzy
+msgid "Select your country"
+msgstr "国を選択"
+
+# Need context
+#: src/Setup/Blocks.php:240
+msgid "selected"
+msgstr "点の商品"
+
+#: src/Localization/AdminTranslations.php:115
+#: src/Localization/AdminTranslations.php:128
+msgid "Settings"
+msgstr "設定"
+
+#: src/Localization/AdminTranslations.php:226
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: src/Localization/AdminTranslations.php:143
+msgid "Shortcode copied!"
+msgstr "ショートコードがコピーされました！"
+
+#: src/Localization/AdminTranslations.php:293
+msgid "Singapore"
+msgstr "シンガポール"
+
+#: src/Localization/AdminTranslations.php:106
+msgid "Single Product Card"
+msgstr "単一商品カード"
+
+#: src/Localization/AdminTranslations.php:119
+#, fuzzy
+msgid "Something went wrong"
+msgstr "何かが間違っていた"
+
+#: src/Rest/TableRoutes.php:207
+msgid "Sorry, table does not exists."
+msgstr "申し訳ありませんが、テーブルが存在しません。"
+
+# Adding [。] for consistency
+#: src/Rest/TableRoutes.php:29 src/Rest/TableRoutes.php:180
+#: src/Rest/TableRoutes.php:241
+msgid "Sorry, table id missing"
+msgstr "申し訳ありませんが、テーブルIDがありません。"
+
+#: src/Rest/TableRoutes.php:153 src/Rest/TableRoutes.php:194
+#: src/Rest/ItemsRoutes.php:47 src/Rest/ItemsRoutes.php:123
+msgid "Sorry, there are validation errors."
+msgstr "申し訳ありませんが、バリデーションエラーが発生しました。"
+
+#: src/Api/Mercado/Client.php:83 src/Api/Mercado/ClientMercado.php:69
+#: src/Api/Amazon/ProxyApi/Client.php:66
+msgid "Sorry, there was a problem with request."
+msgstr "申し訳ありませんが、リクエストに問題が発生しました。"
+
+#: src/Rest/SettingsRoutes.php:200 src/Rest/SettingsRoutes.php:234
+msgid "Sorry, you are not allowed to do that."
+msgstr "申し訳ありませんが、その操作は許可されていません。"
+
+#: src/Localization/AdminTranslations.php:295
+msgid "Spain"
+msgstr "スペイン"
+
+#: src/Localization/AdminTranslations.php:93
+msgid "Start Earning in Four Easy Steps"
+msgstr "4つの簡単なステップで報酬を獲得"
+
+#: src/Localization/AdminTranslations.php:91
+msgid "Start Earning Now"
+msgstr "今すぐ報酬を獲得"
+
+#: src/Localization/AdminTranslations.php:234
+msgid "Status"
+msgstr "ステータス"
+
+#: src/Localization/AdminTranslations.php:296
+msgid "Sweden"
+msgstr "スウェーデン"
+
+#: src/Setup/Cpts.php:40
+msgid "Table"
+msgstr "テーブル"
+
+#: src/Repositories/TableRepository.php:279
+msgid "Table added feature is missing title."
+msgstr "テーブルに追加された機能にタイトルがありません。"
+
+#: src/Repositories/TableRepository.php:263
+msgid "Table added product is missing asin."
+msgstr "テーブルに追加された商品にASINがありません。"
+
+#: src/Localization/AdminTranslations.php:179
+msgid "Table data will be shown in this page"
+msgstr "テーブルデータはこのページに表示されます"
+
+#: src/Repositories/TableRepository.php:48
+#: src/Repositories/TableRepository.php:58
+#: src/Repositories/TableRepository.php:116
+#: src/Repositories/TableRepository.php:126 src/Rest/TableRoutes.php:253
+#: src/Rest/TableRoutes.php:263
+msgid "Table does not exist."
+msgstr "テーブルが存在しません。"
+
+#: src/Localization/AdminTranslations.php:192
+#: src/Localization/AdminTranslations.php:269
+msgid "Table name"
+msgstr "テーブル名"
+
+#: src/Repositories/TableRepository.php:248
+msgid "Table name is missing."
+msgstr "テーブル名がありません。"
+
+#: src/Shortcodes/ProductTableShortcode.php:73
+msgid "Table not found or it is not published."
+msgstr "テーブルが見つからないか、公開されていません。"
+
+#: src/Shortcodes/ProductTableShortcode.php:66
+msgid "Table not found."
+msgstr "テーブルが見つかりません。"
+
+#: src/Repositories/TableRepository.php:269
+msgid "Table should have at least one feature added."
+msgstr "テーブルには少なくとも1つの機能が追加されている必要があります。"
+
+#: src/Repositories/TableRepository.php:252
+msgid "Table should have at least one product added."
+msgstr "テーブルには少なくとも1つの商品が追加されている必要があります。"
+
+#: src/Repositories/TableRepository.php:285
+msgid "Table status is missing."
+msgstr "テーブルのステータスが見つかりません。"
+
+#: src/Localization/AdminTranslations.php:218
+msgid "Table was successfully created"
+msgstr "テーブルが正常に作成されました"
+
+#: src/Localization/AdminTranslations.php:227
+msgid "Table was successfully deleted"
+msgstr "テーブルが正常に削除されました"
+
+#: src/Localization/AdminTranslations.php:214
+msgid "Table was successfully saved"
+msgstr "テーブルが正常に保存されました"
+
+#: src/Localization/AdminTranslations.php:102
+msgid ""
+"That's it – every time visitors buy the product from your post, you will "
+"earn a commission from Amazon."
+msgstr "これで完了です – 訪問者が投稿から商品を購入するたびにAmazonから報酬を得られます。"
+
+#: src/Localization/AdminTranslations.php:174
+#| msgid ""
+#| "That’s it! After your post published, whenever your visitor buy the "
+#| "product from your post, you will earn commissions."
+msgid ""
+"That's it! After your post published, whenever your visitor buy the product "
+"from your post, you will earn commissions."
+msgstr "これで完了です！投稿が公開されると、訪問者が投稿から商品を購入するたびに報酬を獲得できます。"
+
+#: src/Localization/AdminTranslations.php:38
+#: src/Localization/AdminTranslations.php:50
+msgid ""
+"That's it! Whenever a visitor buys a product through your link, you'll earn "
+"commission."
+msgstr "これで完了です！訪問者がリンクを通して商品を購入するたびに報酬を獲得できます。"
+
+#. %s: URL.
+#: src/Errors/AmazonApiError.php:47
+#, php-format
+msgid ""
+"The Access Key is not enabled for accessing Product Advertising API. For "
+"information on registering for Product Advertising API, see <a href=\"%s\" "
+"target=\"_blank\">Register for Product Advertising API</a>"
+msgstr ""
+"商品広告APIにアクセスするためのアクセスキーが有効化されていません。商品広告APIの登録方法については、<a href=\"%s\" "
+"target=\"_blank\">商品広告APIの登録</a>をご確認ください。"
+
+#. %s: URL.
+#: src/Errors/AmazonApiError.php:56
+#, php-format
+msgid ""
+"The Access Key is not enabled for accessing this version of Product "
+"Advertising API. Please migrate your credentials as referred here <a "
+"href=\"%s\" target=\"_blank\">Managing your Existing AWS Security "
+"Credentials for the Product Advertising API</a>."
+msgstr ""
+"このバージョンの商品広告APIにアクセスするためのアクセスキーが有効化されていません。<a href=\"%s\" target=\"_blank\">"
+"商品広告APIの既存のAWSセキュリティ認証情報の管理</a>を参照して、認証情報を移行してください。"
+
+#: hostinger-affiliate-plugin.php:104
+#, php-format
+msgid ""
+"The Hostinger Affiliate plugin requires minimum PHP version of <b>%s</b>. "
+msgstr "Hostinger Affiliateプラグインは<b>%s</b>以上のPHPバージョンが必要となります。"
+
+#: src/Services/ProductFetchService.php:190
+msgid ""
+"There is an issue displaying Amazon products. Please contact the "
+"administrator to check that."
+msgstr "Amazon商品の表示に問題があります。管理者に連絡してご確認ください。"
+
+#: src/Errors/AmazonApiError.php:36 src/Errors/AmazonApiError.php:89
+msgid "There seems to be a technical problem with your request."
+msgstr "リクエストに技術的な問題が発生しているようです。"
+
+#: src/Errors/AmazonApiError.php:74
+msgid ""
+"There was a problem with your request. Amazon limits the number of requests "
+"you can make to their Product Advertising API. Note that your account will "
+"lose access to Product Advertising API 5.0 if it has not generated referring "
+"sales for a consecutive 30-day period."
+msgstr ""
+"リクエストに問題が発生しました。Amazonでは、商品広告APIへのリクエスト数に制限があります。30日間連続で紹介による売上がない場合、アカウントは商品広告API"
+" 5.0へのアクセス権を失うためご注意ください。"
+
+# Need context
+#: src/Localization/AdminTranslations.php:191
+msgid "There was an error saving your settings: "
+msgstr "設定の保存中にエラーが発生しました："
+
+# Need context
+#: src/Localization/AdminTranslations.php:185
+msgid "There was an error searching for items: "
+msgstr "商品の検索中にエラーが発生しました："
+
+#: src/Localization/AdminTranslations.php:186
+msgid "There was fatal server error while processing your request."
+msgstr "リクエストの処理中に致命的なサーバーエラーが発生しました。"
+
+#: src/Localization/AdminTranslations.php:216
+#: src/Localization/AdminTranslations.php:219
+msgid "This field is required"
+msgstr "このフィールドは必須です"
+
+# Need context
+#: src/Localization/AdminTranslations.php:104
+msgid "Three Templates for Your Product(s) Block"
+msgstr "商品ブロックに使用可能な3種類のテンプレート"
+
+#: src/Repositories/TableRepository.php:297
+#: src/Localization/AdminTranslations.php:265
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: src/Repositories/TableRepository.php:296
+#: src/Localization/AdminTranslations.php:264
+msgid "Title"
+msgstr "タイトル"
+
+#: src/Localization/AdminTranslations.php:33
+#: src/Localization/AdminTranslations.php:45
+msgid "To start promoting products, first create a post."
+msgstr "商品の宣伝を開始するには、　まず投稿を作成する必要があります。"
+
+#: src/Localization/AdminTranslations.php:65
+msgid "Tracking ID"
+msgstr "トラッキングID"
+
+#: src/Localization/AdminTranslations.php:52
+msgid "Tracking ID connected"
+msgstr "トラッキングIDが接続されました"
+
+#: src/Localization/AdminTranslations.php:217
+msgid ""
+"Tracking ID format wrong. Lowercase letters, digits and _-. special chars "
+"are allowed."
+msgstr "トラッキングIDの形式が正しくありません。小文字、数字、特殊文字（_-.）のみ使用できます。"
+
+# Need context
+#: src/Localization/AdminTranslations.php:121
+#: src/Localization/AdminTranslations.php:135
+msgid "Try searching for something else"
+msgstr "他のキーワードで検索してみましょう"
+
+#: src/Localization/AdminTranslations.php:297
+msgid "Turkey"
+msgstr "トルコ"
+
+#: src/Localization/AdminTranslations.php:140
+msgid "Tutorial"
+msgstr "チュートリアル"
+
+# Need context
+#: src/Localization/AdminTranslations.php:161
+msgid "Tutorial video by"
+msgstr "-"
+
+#: src/Localization/AdminTranslations.php:278
+msgid "Type"
+msgstr "タイプ"
+
+#: src/Localization/AdminTranslations.php:254
+msgid "Type field not added to all product data rows."
+msgstr "すべての商品データ行に入力フィールドが追加されていません。"
+
+#: src/Localization/AdminTranslations.php:298
+msgid "United Arab Emirates"
+msgstr "アラブ首長国連邦"
+
+#: src/Localization/AdminTranslations.php:299
+msgid "United Kingdom"
+msgstr "イギリス"
+
+#: src/Localization/AdminTranslations.php:300
+msgid "United States"
+msgstr "アメリカ"
+
+#: src/Localization/Messages.php:24
+msgid "Unknown display type. Please re-select display type."
+msgstr "不明な表示タイプです。もう一度選択してください。"
+
+#: src/Localization/AdminTranslations.php:90
+msgid ""
+"Unlock the full potential of your website – monetize it with our plugin to "
+"earn more."
+msgstr "Webサイトの可能性を最大限に引き出す – プラグインを活用して収益化し、報酬を獲得しましょう。"
+
+#: src/Localization/AdminTranslations.php:232
+msgid "Unpublish"
+msgstr "公開を停止"
+
+# Need context
+#: src/Localization/AdminTranslations.php:257
+msgid "Use the saved table configuration"
+msgstr "保存済みのテーブル設定を使用する"
+
+#: src/Localization/AdminTranslations.php:130
+msgid "View guide"
+msgstr "ガイドを見る"
+
+#: src/Localization/AdminTranslations.php:229
+msgid "Visibility"
+msgstr "可視性"
+
+# Need context
+#: src/Models/Product.php:284
+msgid "Watch on Amazon Prime"
+msgstr "Amazonプライムで見る"
+
+#: src/Localization/AdminTranslations.php:89
+#| msgid "Welcome to Hostinger Amazon Affiliate Connector!"
+msgid "Welcome to Hostinger Amazon Affiliate!"
+msgstr "Hostinger Amazon Affiliateへようこそ！"
+
+#: src/Localization/AdminTranslations.php:273
+msgid "What's an ASIN code?"
+msgstr "ASINコードとは？"
+
+#: src/Localization/AdminTranslations.php:98
+msgid "Write down your content that you want to link your Amazon product with."
+msgstr "Amazon商品をリンクするコンテンツを作成してください。"
+
+# Need context
+#. %s: PHP version
+#: hostinger-affiliate-plugin.php:108
+#, php-format
+msgid "You are running <b>%s</b> PHP version."
+msgstr "現在使用中のPHPバージョンは<b>%s</b>です。"
+
+#: src/Localization/AdminTranslations.php:272
+msgid ""
+"You can add unlimited products, but only 6 can be shown in a published table."
+msgstr "商品は無制限に追加できますが、公開されたテーブルには最大6点までしか表示できません。"
+
+#: src/Localization/AdminTranslations.php:302
+msgid ""
+"You can add your comparison table to any post. Whenever a visitor buys a "
+"product through your affiliate link, you'll earn commission."
+msgstr "任意の投稿に比較表を追加できます。訪問者がアフィリエイトリンクを通して商品を購入するたびに、報酬が発生します。"
+
+#: src/Localization/AdminTranslations.php:213
+#| msgid ""
+#| "You can also hide products so they don’t appear in the table. Products "
+#| "that you delete will need to be added again."
+msgid ""
+"You can also hide products so they don't appear in the table. Products that "
+"you delete will need to be added again."
+msgstr "商品を非表示にして、テーブルに表示させないこともできます。削除した商品は、再度追加する必要があります。"
+
+#: src/Localization/AdminTranslations.php:210
+msgid ""
+"You can also unpublish your table. Deleting it will cause you to lose all "
+"added products."
+msgstr "比較表の公開を停止することもできます。削除すると、追加したすべての商品が失われます。"
+
+# [existing] is omitted because "edit" implies editing an existing table
+#: src/Localization/AdminTranslations.php:258
+msgid "You can edit the existing table configuration after this step"
+msgstr "このステップの後に、テーブル設定を編集することができます"
+
+#: src/Localization/AdminTranslations.php:23
+#, fuzzy
+msgid ""
+"You can select both marketplaces and then easily add affiliate links to your "
+"content."
+msgstr "両方のマーケットプレイスを選択し、コンテンツにアフィリエイトリンクを簡単に追加することができます。"
+
+#: src/Localization/AdminTranslations.php:251
+#| msgid "You have added too many products. Only 5 are allowed."
+msgid "You have added too many products to display. Only 6 are allowed."
+msgstr "追加された商品数が上限を超えています。最大6点まで表示できます。"
+
+#: src/Localization/AdminTranslations.php:158
+msgid "You have unsaved changes that will be lost if you leave."
+msgstr "保存していない変更があるため、ページを離れると変更が失われます。"
+
+# Need context.
+# [select] is omitted as it's not clear what it refers to.
+#: src/Localization/AdminTranslations.php:255
+msgid ""
+"You need to add at least one row (title, select) to create a table. Check if "
+"all fields are filled."
+msgstr "テーブルを作成するには、少なくとも1行（タイトルなど）を追加する必要があります。すべての項目に入力していることを確認してください。"
+
+#: src/Localization/AdminTranslations.php:261
+msgid ""
+"You need to add at least one row, two enabled products (max 5 products) to "
+"save changes. Check if all added fields are filled."
+msgstr ""
+"変更を保存するには、少なくとも1行を追加し、2点以上（最大で5点）の有効な商品を含める必要があります。追加したすべての項目に入力していることを確認してください。"
+
+#: src/Localization/AdminTranslations.php:170
+msgid ""
+"You need to choose the main layout for your product(s) block based on your "
+"needs. You can choose between single product, multiple product, or "
+"comparison."
+msgstr "希望する商品ブロックのメインレイアウトを選択してください。単一商品、複数商品、比較表のいずれかから選択できます。"
+
+#: src/Localization/AdminTranslations.php:248
+msgid "You need to enter table name."
+msgstr "テーブル名を入力する必要があります。"
+
+#: src/Localization/AdminTranslations.php:122
+msgid "Your comparison tables"
+msgstr "商品比較表"
+
+#: src/Localization/AdminTranslations.php:181
+msgid "Your tables"
+msgstr "テーブル"

@@ -1,0 +1,1750 @@
+# Copyright (C) 2023 Hostinger
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostinger Affiliate Plugin 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hostinger-"
+"affiliate-plugin\n"
+"Last-Translator: Merve Özcan - mrvzcn(@)outlook.com\n"
+"Language-Team: Turkish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-28T09:55:18+00:00\n"
+"PO-Revision-Date: 2025-06-12 08:28+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: hostinger-affiliate-plugin\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.7.2; wp-6.8"
+
+#. %s: Product ASIN
+#: src/Api/Amazon/ProxyApi/Api/ProductApi.php:72
+#, fuzzy, php-format
+msgid "%s Product does not exist anymore."
+msgstr "s Ürün artık mevcut değil."
+
+#: src/Localization/AdminTranslations.php:306
+#, fuzzy
+msgid ""
+"<strong>Amazon is available in</strong>: Australia, Belgium, Brazil, Canada, "
+"Egypt, France, Germany, India, Italy, Japan, Mexico, Netherlands, Poland, "
+"Saudi Arabia, Singapore, Spain, Sweden, Turkey, United Arab Emirates, United "
+"Kingdom, United States."
+msgstr ""
+"<strong>Amazon'da</strong> kullanılabilir: Avustralya, Belçika, Brezilya, "
+"Kanada, Mısır, Fransa, Almanya, Hindistan, İtalya, Japonya, Meksika, "
+"Hollanda, Polonya, Suudi Arabistan, Singapur, İspanya, İsveç, Türkiye, "
+"Birleşik Arap Emirlikleri, Birleşik Krallık, Amerika Birleşik Devletleri."
+
+#: src/Localization/AdminTranslations.php:307
+#, fuzzy
+msgid ""
+"<strong>Mercado Livre is available in</strong>: Argentina, Brazil, Mexico."
+msgstr ""
+"<strong>Mercado Livre şu ülkelerde</strong> mevcuttur: Arjantin, Brezilya, "
+"Meksika."
+
+#: src/Localization/AdminTranslations.php:275
+msgid "A table can display up to 6 products."
+msgstr "Bir tablo en fazla 6 ürün sergileyebilir."
+
+#: src/Localization/AdminTranslations.php:58
+msgid "Access key"
+msgstr "Erişim anahtarı"
+
+#: src/Localization/AdminTranslations.php:75
+msgid "Access key cannot contain special characters"
+msgstr "Erişim anahtarı özel karakterler içeremez"
+
+#: src/Localization/AdminTranslations.php:76
+msgid "Access key must be 20 characters long"
+msgstr "Erişim anahtarı 20 karakter uzunluğunda olmalıdır"
+
+#: src/Localization/AdminTranslations.php:66
+msgid "Access key must be combination of letters and numbers"
+msgstr "Erişim anahtarı harf ve rakam kombinasyonu olmalıdır"
+
+#: src/Localization/AdminTranslations.php:222
+msgid "Add"
+msgstr "Ekle"
+
+#: src/Localization/AdminTranslations.php:167
+#| msgid "Add “Link Amazon product(s)” in block editor"
+msgid "Add \"Link Amazon product(s)\" in block editor"
+msgstr "Blok düzenleyiciye \"Amazon ürünlerini bağla\" ekleyin"
+
+#: src/Localization/AdminTranslations.php:109
+msgid "Add a few products and describe them briefly."
+msgstr "Birkaç ürün ekleyp bunları kısaca açıklayın."
+
+#: src/Localization/AdminTranslations.php:97
+msgid "Add a new post"
+msgstr "Yeni bir gönderi ekleyin"
+
+#: src/Localization/AdminTranslations.php:256
+msgid "Add a new table configuration"
+msgstr "Yeni bir tablo yapılandırması ekle"
+
+#: src/Localization/AdminTranslations.php:28
+#: src/Localization/AdminTranslations.php:40
+msgid "Add a product block"
+msgstr "Ürün bloğu ekleme"
+
+#: src/Localization/AdminTranslations.php:247
+msgid "Add at least 2 products to continue."
+msgstr "Devam etmek için en az 2 ürün ekleyin."
+
+#: src/Localization/AdminTranslations.php:252
+msgid "Add at least one product data row."
+msgstr "En az bir ürün veri satırı ekleyin."
+
+#: src/Localization/AdminTranslations.php:249
+msgid "Add at least two products to continue"
+msgstr "Devam etmek için en az iki ürün ekleyin"
+
+#: src/Localization/AdminTranslations.php:236
+msgid "Add highlight"
+msgstr "Vurgu ekle"
+
+#: src/Localization/AdminTranslations.php:113
+msgid "Add multiple similar products and compare them."
+msgstr "Birden fazla benzer ürün ekleyip bunları karşılaştırın."
+
+#: src/Localization/AdminTranslations.php:223
+msgid "Add product"
+msgstr "Ürün ekle"
+
+#: src/Localization/AdminTranslations.php:30
+#: src/Localization/AdminTranslations.php:42
+#: src/Localization/AdminTranslations.php:144
+#: src/Localization/AdminTranslations.php:193
+msgid "Add products"
+msgstr "Ürün ekle"
+
+#: src/Localization/AdminTranslations.php:235
+msgid "Add row"
+msgstr "Sıra ekle"
+
+#: src/Localization/AdminTranslations.php:201
+msgid "Add table"
+msgstr "Tablo ekle"
+
+#: src/Localization/AdminTranslations.php:199
+#| msgid "Add the row data"
+msgid "Add the product data"
+msgstr "Satır verilerini ekle"
+
+#: src/Localization/AdminTranslations.php:171
+msgid "Add the product(s)"
+msgstr "Ürün ekle"
+
+#: src/Localization/AdminTranslations.php:24
+#, fuzzy
+msgid ""
+"Add your API credentials to select a language and improve search results. "
+"This step is optional, but recommended."
+msgstr ""
+"Bir dil seçmek ve arama sonuçlarını iyileştirmek için API kimlik "
+"bilgilerinizi ekleyin. Bu adım isteğe bağlıdır, ancak önerilir."
+
+#: src/Localization/AdminTranslations.php:196
+msgid "Affiliate link"
+msgstr "Affiliate bağlantısı"
+
+#: src/Localization/AdminTranslations.php:13 src/Admin/Menus.php:54
+#: src/Admin/Menus.php:55 src/Admin/Menus.php:73
+msgid "Affiliate Marketing"
+msgstr "Affiliate Pazarlama"
+
+#: src/Setup/Cpts.php:41
+msgid "Affiliate tables"
+msgstr "Affiliate tabloları"
+
+#: src/Localization/AdminTranslations.php:172
+msgid ""
+"After choosing the layout, you need to find the product(s) that you want to "
+"promote in your post. You can copy-paste the ASIN or search the product(s) "
+"manually."
+msgstr ""
+"Düzeni seçtikten sonra gönderinizde tanıtımını yapmak istediğiniz "
+"ürünü/ürünleri bulmanız gerekir. ASIN'i kopyalayıp yapıştırabilir veya "
+"ürünleri kendiniz arayabilirsiniz."
+
+#: src/Localization/AdminTranslations.php:70
+msgid "Amazon"
+msgstr "Amazon"
+
+#: src/Localization/AdminTranslations.php:141
+msgid "Amazon Affiliate"
+msgstr "Amazon Affiliate"
+
+#: src/Localization/Messages.php:16
+msgid "Amazon API returned an error."
+msgstr "Amazon API bir bir hata verdi."
+
+#: src/Localization/AdminTranslations.php:189
+msgid "Amazon api was disconnected!"
+msgstr "Amazon API'nin bağlantısı kesildi!"
+
+#: src/Localization/AdminTranslations.php:72
+msgid "Amazon Associates"
+msgstr "Amazon Associates"
+
+#: src/Repositories/TableRepository.php:300
+msgid "Amazon Button"
+msgstr "Amazon Düğmesi"
+
+#: src/Localization/AdminTranslations.php:190
+msgid "Amazon settings were successfully saved!"
+msgstr "Amazon ayarları başarıyla kaydedildi!"
+
+#: src/Localization/AdminTranslations.php:57
+msgid "API Settings"
+msgstr "API Ayarları"
+
+#: src/Localization/AdminTranslations.php:82
+msgid "API status"
+msgstr "API durumu"
+
+#: src/Localization/AdminTranslations.php:282
+#, fuzzy
+msgid "Argentina"
+msgstr "Arjantin"
+
+#: src/Localization/AdminTranslations.php:268
+msgid ""
+"ASIN is a unique 10-digit code Amazon assigns to products in its catalog. "
+"You can find it on the product detail page."
+msgstr ""
+"ASIN, Amazon'un kataloğundaki ürünlere atadığı 10 haneli benzersiz bir "
+"koddur. Ürün detay sayfasında bulabilirsiniz."
+
+#: src/Localization/Messages.php:20
+msgid "ASIN validation failed. Please check entered product ASIN!"
+msgstr ""
+"ASIN doğrulaması başarısız oldu. Lütfen girilen ürünün ASIN'ini kontrol edin!"
+
+#. %s: PHP version
+#: hostinger-affiliate-plugin.php:104
+msgid "Attention:"
+msgstr "Dikkat:"
+
+#: src/Localization/AdminTranslations.php:279
+msgid "Australia"
+msgstr "Avustralya"
+
+#: src/Localization/AdminTranslations.php:152
+msgid "Back"
+msgstr "Geri"
+
+#: src/Localization/AdminTranslations.php:280
+msgid "Belgium"
+msgstr "Belçika"
+
+#. %d: bestseller place
+#: src/Shortcodes/templates/lists/simplified-list.php:37
+#: src/Shortcodes/templates/lists/list-with-description.php:16
+#: src/Shortcodes/templates/lists/horizontal-cards.php:20
+msgid "Bestseller #%d"
+msgstr "Çoksatanlar #%d"
+
+#: src/Localization/AdminTranslations.php:281
+msgid "Brazil"
+msgstr "Brezilya"
+
+#: src/Models/Product.php:275
+msgid "Buy now"
+msgstr "Şimdi satın al"
+
+#: src/Models/Product.php:279
+msgid "Buy on Amazon"
+msgstr "Amazon'dan Satın Al"
+
+#: src/Localization/AdminTranslations.php:283
+msgid "Canada"
+msgstr "Kanada"
+
+#: src/Setup/Blocks.php:248 src/Localization/AdminTranslations.php:205
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/Localization/AdminTranslations.php:151
+msgid ""
+"Check out our quick guide for tips on how to start using this plugin and "
+"start earning."
+msgstr ""
+"Bu eklentiyi kullanmaya ve kazanmaya nasıl başlayacağınıza dair ipuçları "
+"için hızlı rehberimize göz atın."
+
+#: src/Setup/Blocks.php:206
+msgid "Check your search term and try again"
+msgstr "Arama teriminizi kontrol edin ve tekrar deneyin"
+
+#: src/Localization/AdminTranslations.php:64
+msgid "Choose Amazon region ..."
+msgstr "Amazon bölgesini seçin..."
+
+#: src/Localization/AdminTranslations.php:105
+msgid ""
+"Choose any template for your needs  – all of them are integrated with the "
+"Gutenberg editor."
+msgstr ""
+"İhtiyaçlarınıza uygun herhangi bir şablonu seçin. Hepsi Gutenberg editörüyle "
+"uyumludur."
+
+#: src/Localization/AdminTranslations.php:35
+#: src/Localization/AdminTranslations.php:47
+msgid ""
+"Choose between a single product card, multiple product list, or comparison "
+"table."
+msgstr ""
+"Tek bir ürün kartı, çoklu ürün listesi veya karşılaştırma tablosu arasından "
+"seçim yapın."
+
+#: src/Localization/AdminTranslations.php:29
+#: src/Localization/AdminTranslations.php:41
+msgid "Choose how to display products"
+msgstr "Ürünleri nasıl sergileyeceğinizi seçin"
+
+#: src/Localization/AdminTranslations.php:169
+msgid "Choose the layout for the product(s) block"
+msgstr "Ürün bloğunun düzenini seçin"
+
+#: src/Localization/AdminTranslations.php:259
+msgid "Choose the table configuration"
+msgstr "Tablo yapılandırmasını seçin"
+
+#: src/Localization/AdminTranslations.php:136
+#| msgid "Choose which products to compare and set up your table’s rows."
+msgid "Choose which products to compare and set up your table's rows."
+msgstr ""
+"Hangi ürünleri karşılaştıracağınızı seçin ve tablonuzun satırlarını "
+"ayarlayın."
+
+#: src/Localization/AdminTranslations.php:204
+msgid "Close"
+msgstr "Kapat"
+
+#: src/Localization/AdminTranslations.php:132
+msgid "Coming soon"
+msgstr "Yakında geliyor"
+
+#: src/Localization/AdminTranslations.php:112
+msgid "Comparison Table"
+msgstr "Karşılaştırma Tablosu"
+
+#: src/Localization/AdminTranslations.php:124
+msgid "Comparison tables"
+msgstr "Karşılaştırma tabloları"
+
+#: src/Localization/AdminTranslations.php:138
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: src/Setup/Blocks.php:254
+msgid "Confirm selection"
+msgstr "Seçimi onayla"
+
+#: src/Localization/AdminTranslations.php:81
+msgid "Connect"
+msgstr "Bağlan"
+
+#: src/Localization/AdminTranslations.php:79
+msgid "Connect Amazon account"
+msgstr "Amazon hesabını bağlayın"
+
+#: src/Localization/AdminTranslations.php:103
+msgid "Connect With Your Amazon Account"
+msgstr "Amazon Hesabınıza Bağlayın"
+
+#: src/Localization/AdminTranslations.php:18
+#: src/Localization/AdminTranslations.php:95
+msgid "Connect Your Amazon Account"
+msgstr "Amazon Hesabınızı Bağlayın"
+
+#: src/Localization/AdminTranslations.php:92
+msgid "Connect your Amazon Associates Account"
+msgstr "Amazon Associates Hesabınızı Bağlayın"
+
+#: src/Localization/AdminTranslations.php:15
+#| msgid "Connect  your Amazon Associates Account"
+msgid "Connect your Amazon Associates account"
+msgstr "Amazon Associates Hesabınızı Bağlayın"
+
+#: src/Localization/AdminTranslations.php:51
+#: src/Localization/AdminTranslations.php:84
+msgid "Connected"
+msgstr "Bağlandı"
+
+#: src/Localization/AdminTranslations.php:86
+msgid "Connected to Partner ID:"
+msgstr "Ortak Kimliğe bağlandı:"
+
+#: src/Errors/AmazonApiError.php:41 src/Errors/AmazonApiError.php:91
+msgid "Contact Hostinger support for further assistance."
+msgstr "Daha fazla yardım için Hostinger destek ekibiyle iletişime geçin. "
+
+#: src/Localization/AdminTranslations.php:203
+msgid "Continue"
+msgstr "Devam Et"
+
+#: src/Localization/AdminTranslations.php:137
+msgid "Copied successfully!"
+msgstr "Kopyalandı!"
+
+#: src/Localization/AdminTranslations.php:62
+msgid "Country"
+msgstr "Ülke"
+
+#: src/Localization/AdminTranslations.php:87
+#: src/Localization/AdminTranslations.php:165
+#: src/Localization/AdminTranslations.php:177
+msgid "Create a new post"
+msgstr "Yeni yazı oluştur"
+
+#: src/Localization/AdminTranslations.php:27
+#: src/Localization/AdminTranslations.php:39
+#: src/Localization/AdminTranslations.php:303
+msgid "Create a post"
+msgstr "Bir gönderi oluşturun"
+
+#: src/Localization/AdminTranslations.php:301
+msgid "Create a post to start promoting products"
+msgstr "Ürünleri tanıtmaya başlamak için bir gönderi oluşturun"
+
+#: src/Localization/AdminTranslations.php:123
+#: src/Localization/AdminTranslations.php:125
+msgid "Create and manage your comparison tables."
+msgstr "Karşılaştırma tablolarınızı oluşturun ve yönetin."
+
+#. Description of the plugin
+#, fuzzy
+msgid ""
+"Create and promote products using affiliate links from different "
+"marketplaces. Easily manage and display affiliate products on your site."
+msgstr ""
+"Farklı pazar yerlerinden satış ortaklığı bağlantıları kullanarak ürünler "
+"oluşturun ve tanıtın. Satış ortaklığı ürünlerini sitenizde kolayca yönetin "
+"ve görüntüleyin."
+
+#: src/Localization/AdminTranslations.php:53
+msgid "Create post"
+msgstr "Gönderi oluştur"
+
+#: src/Localization/AdminTranslations.php:180
+#| msgid "Create new table"
+msgid "Create table"
+msgstr "Yeni tablo oluştur"
+
+#: src/Localization/AdminTranslations.php:134
+msgid "Create your first comparison table"
+msgstr "İlk karşılaştırma tablonuzu oluşturun"
+
+#: src/Localization/AdminTranslations.php:231
+msgid "Date created"
+msgstr "Oluşturulduğu tarih"
+
+#: src/Localization/AdminTranslations.php:206
+msgid "Delete"
+msgstr "Sil"
+
+#: src/Localization/AdminTranslations.php:212
+msgid "Delete product?"
+msgstr "Ürünü silelim mi?"
+
+#: src/Localization/AdminTranslations.php:207
+#| msgid "Delete table?"
+msgid "Delete table"
+msgstr "Tablo silinsin mi?"
+
+#: src/Localization/AdminTranslations.php:211
+msgid "Delete this table?"
+msgstr "Bu tabloyu silelim mi?"
+
+#: src/Localization/AdminTranslations.php:305
+#, fuzzy
+msgid ""
+"Depending on your country, different marketplaces may be available to you."
+msgstr ""
+"Ülkenize bağlı olarak, farklı pazar yerleri sizin için kullanılabilir "
+"olabilir."
+
+#: src/Localization/AdminTranslations.php:228
+msgid "Determine who will see the table"
+msgstr "Tabloyu kimin göreceğini belirleyin"
+
+#: src/Localization/AdminTranslations.php:88
+msgid "Disconnect"
+msgstr "Bağlantıyı kes"
+
+#: src/Localization/AdminTranslations.php:85
+msgid "Disconnected"
+msgstr "Bağlantı kesildi"
+
+#. %s: product asin.
+#: src/Localization/AdminTranslations.php:263
+#, php-format
+msgid "Duplicate ASIN: %s was not added."
+msgstr "Yinelenen ASIN: %s eklenmedi."
+
+#: src/Localization/AdminTranslations.php:101
+msgid "Earn Commissions"
+msgstr "Komisyon Kazanın"
+
+#: src/Localization/AdminTranslations.php:142
+msgid "Edit your Amazon API details"
+msgstr "Amazon API ayrıntılarınızı düzenleyin"
+
+#: src/Localization/AdminTranslations.php:284
+msgid "Egypt"
+msgstr "Mısır"
+
+#: src/Localization/AdminTranslations.php:250
+msgid "Enable at least two products to continue"
+msgstr "Devam etmek için en az iki ürünü etkinleştirin"
+
+#: src/Localization/AdminTranslations.php:241
+msgid "Enter text label. For example: Best Price"
+msgstr "Metin etiketini girin. Örnek: En Ucuz"
+
+#: src/Localization/AdminTranslations.php:202
+msgid "Enter your table name"
+msgstr "Tablo adınızı girin"
+
+#. %s: missing field key name
+#: src/Localization/Messages.php:12
+#, php-format
+msgid "Field %s is empty."
+msgstr "%s alanı boş."
+
+#: src/Localization/AdminTranslations.php:19
+msgid "Fill API details from Amazon Product Advertising dashboard to start"
+msgstr ""
+"Başlamak için Amazon Ürün Reklamcılığı kontrol panelinden API ayrıntılarını "
+"doldurun"
+
+#: src/Localization/AdminTranslations.php:54
+msgid "Find your API credentials"
+msgstr "API kimlik bilgilerinizi bulun"
+
+#: src/Localization/AdminTranslations.php:154
+msgid "Find your Tracking ID"
+msgstr "Takip Kimliğinizi Bulun"
+
+#: src/Localization/AdminTranslations.php:166
+msgid ""
+"First thing first, you need to create a post. Make sure to create the post "
+"with the specific niche to be more related with your visitors."
+msgstr ""
+"İlk önce bir gönderi oluşturmanız gerekiyor. Ziyaretçilerinizle daha alakalı "
+"olabilmek için gönderiyi belirli bir nişle oluşturduğunuzdan emin olun."
+
+#: src/Localization/AdminTranslations.php:94
+msgid ""
+"Follow this step-by-step guide to start earning your affiliate commission in "
+"no time."
+msgstr ""
+"Ortaklık komisyonunuzu hemen kazanmaya başlamak için bu adım adım rehberi "
+"izleyin."
+
+#: src/Localization/AdminTranslations.php:37
+#: src/Localization/AdminTranslations.php:49
+msgid "For each product, generate and paste your affiliate link."
+msgstr "Her ürün için affiliate bağlantınızı oluşturun ve yapıştırın."
+
+#: src/Localization/AdminTranslations.php:285
+msgid "France"
+msgstr "Fransa"
+
+#: src/Localization/AdminTranslations.php:155
+msgid "General"
+msgstr "Genel"
+
+#: src/Localization/AdminTranslations.php:246
+msgid "General settings"
+msgstr "Genel ayarlar"
+
+#: src/Localization/AdminTranslations.php:286
+msgid "Germany"
+msgstr "Almanya"
+
+#: src/Localization/AdminTranslations.php:114
+msgid "Get Started"
+msgstr "Hemen Başla"
+
+#: src/Localization/AdminTranslations.php:148
+msgid "Get started with our plugin"
+msgstr "Eklentimizi kullanmaya başlayın"
+
+#: src/Localization/AdminTranslations.php:14
+msgid "Getting Started"
+msgstr "Başlarken"
+
+#: src/Localization/AdminTranslations.php:126
+msgid "Getting started"
+msgstr "Başlarken"
+
+#: src/Localization/AdminTranslations.php:150
+msgid "Got it"
+msgstr "Anladım"
+
+#. %s: Amazon store region
+#: src/Setup/Blocks.php:222
+#, php-format
+msgid "Here you will see products from your store region on <b>%s</b>."
+msgstr ""
+"Burada <b>%s</b> konumundaki mağaza bölgenizdeki ürünleri göreceksiniz."
+
+#: src/Setup/Blocks.php:224
+msgid "Here you will see products from your store region."
+msgstr "Burada mağaza bölgenizdeki ürünleri göreceksiniz."
+
+#: src/Localization/AdminTranslations.php:238
+msgid "Highlight settings"
+msgstr "Vurgulama ayarları"
+
+#. Author of the plugin
+msgid "Hostinger"
+msgstr "Hostinger"
+
+#: src/Localization/AdminTranslations.php:162
+msgid "Hostinger Academy"
+msgstr "Hostinger Academy"
+
+#: src/Localization/AdminTranslations.php:12
+msgid "Hostinger Affiliate"
+msgstr "Hostinger Affiliate"
+
+#. Name of the plugin
+#, fuzzy
+#| msgid "Hostinger Amazon Affiliate Marketing Tools"
+msgid "Hostinger Affiliate Marketing Tools"
+msgstr "Hostinger Amazon Affiliate Pazarlama Araçları"
+
+#: src/Admin/Surveys/AmazonSurvey.php:24
+#, fuzzy
+msgid "How could we improve the Hostinger Affiliate plugin for Amazon?"
+msgstr "Amazon için Hostinger Affiliate eklentisini nasıl geliştirebiliriz?"
+
+#: src/Admin/Surveys/MercadoSurvey.php:24
+#, fuzzy
+msgid "How could we improve the Hostinger Affiliate plugin for Mercado Libre?"
+msgstr ""
+"Mercado Libre için Hostinger Affiliate eklentisini nasıl geliştirebiliriz?"
+
+#: src/Localization/AdminTranslations.php:178
+msgid "How to create a product listing using our plugin?"
+msgstr "Eklentimizi kullanarak bir ürün listesi nasıl oluşturulur?"
+
+#: src/Localization/AdminTranslations.php:16
+msgid "How to create a product listing with our plugin?"
+msgstr "Eklentimiz ile ürün listesi nasıl oluşturulur?"
+
+#: src/Localization/AdminTranslations.php:224
+msgid "How to do that?"
+msgstr "Nasıl yaparım?"
+
+#: src/Localization/AdminTranslations.php:198
+msgid "How to get your affiliate link"
+msgstr "Affiliate bağlantınızı nasıl alırsınız"
+
+#: src/Localization/AdminTranslations.php:163
+#| msgid ""
+#| "How to Set Up Amazon Affiliate with Hostinger Amazon Affiliate Connector -"
+#| " Step by step guide"
+msgid ""
+"How to Set Up Amazon Affiliate with Hostinger Amazon Affiliate - Step by "
+"step guide"
+msgstr ""
+"Hostinger Amazon Affiliate Connector ile Amazon Affiliate Nasıl Kurulur? "
+"Adım adım rehber"
+
+#: src/Localization/AdminTranslations.php:164
+msgid "How to use this plugin?"
+msgstr "Bu eklenti nasıl kullanılır?"
+
+#: src/Admin/Surveys/AmazonSurvey.php:20
+#, fuzzy
+msgid "How would you rate your experience publishing Amazon Affiliate links?"
+msgstr ""
+"Amazon Affiliate bağlantılarını yayınlama deneyiminizi nasıl "
+"değerlendirirsiniz?"
+
+#: src/Admin/Surveys/MercadoSurvey.php:20
+#, fuzzy
+msgid ""
+"How would you rate your experience publishing Mercado Libre Affiliate links?"
+msgstr ""
+"Mercado Libre Affiliate bağlantılarını yayınlama deneyiminizi nasıl "
+"değerlendirirsiniz?"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://hostinger.com"
+msgstr "https://hostinger.com.tr"
+
+#: src/Errors/AmazonApiError.php:76
+msgid ""
+"If the problems persists, contact Amazon Associates support for further "
+"assistance."
+msgstr ""
+"Sorunlar devam ederse, daha fazla yardım için Amazon Associates desteğiyle "
+"iletişime geçin."
+
+#: src/Errors/AmazonApiError.php:66 src/Errors/AmazonApiError.php:71
+msgid ""
+"If you're still having trouble after checking your settings, contact Amazon "
+"Associates support for further assistance."
+msgstr ""
+"Ayarlarınızı kontrol ettikten sonra hala sorun yaşıyorsanız, daha fazla "
+"yardım için Amazon Associates desteği ile iletişime geçin."
+
+#: src/Localization/AdminTranslations.php:21
+msgid ""
+"In order to get the Amazon API information, you need to log in to your <b>"
+"Amazon Associate</b> account."
+msgstr ""
+"Amazon API bilgilerini almak için <b>Amazon Associate</b> hesabınıza giriş "
+"yapmanız gerekir."
+
+#: src/Localization/AdminTranslations.php:34
+msgid ""
+"In the editor, type '/' or click the '+' icon. Then, select 'Link Amazon "
+"products'."
+msgstr ""
+"Düzenleyicide \"/\" yazın veya \"+\" simgesine tıklayın. Ardından, \"Amazon "
+"ürünlerini bağla\"yı seçin."
+
+#: src/Localization/AdminTranslations.php:46
+msgid ""
+"In the editor, type '/' or click the '+' icon. Then, select 'Link Mercado "
+"Livre products'."
+msgstr ""
+"Düzenleyicide \"/\" yazın veya \"+\" simgesine tıklayın. Ardından, \"Mercado "
+"Livre ürünlerini bağla\"yı seçin."
+
+#: src/Localization/AdminTranslations.php:287
+msgid "India"
+msgstr "Hindistan"
+
+#: src/Errors/AmazonApiError.php:80
+msgid "Input parameter relating to request is invalid or is missing."
+msgstr "İsteğe ilişkin giriş parametresi geçersiz veya eksik."
+
+#: src/Localization/AdminTranslations.php:96
+msgid "Insert API code inside the Amazon Product Advertising dashboard."
+msgstr "API kodunu Amazon Ürün Reklamcılığı kontrol paneline ekleyin."
+
+#: src/Localization/AdminTranslations.php:168
+#| msgid ""
+#| "Inside Block Editor, you can call Hostinger Amazon Affiliate in the block "
+#| "options. You can call it by typing “/” or click the add button in the "
+#| "right side of the paragraph."
+msgid ""
+"Inside Block Editor, you can call Hostinger Amazon Affiliate in the block "
+"options. You can call it by typing \"/\" or click the add button in the "
+"right side of the paragraph."
+msgstr ""
+"Blok Düzenleyici'nin içindeki blok seçeneklerinden Hostinger Amazon "
+"Affiliate'i arayabilirsiniz. “/” yazarak çağırabilir veya paragrafın sağ "
+"tarafındaki ekle butonuna tıklayabilirsiniz."
+
+#: src/Localization/AdminTranslations.php:209
+msgid "Invalid ASIN"
+msgstr "Geçersiz ASIN"
+
+#: src/Rest/SettingsRoutes.php:222
+#, fuzzy
+msgid "Invalid locale selected. Please choose a valid locale."
+msgstr "Geçersiz yerel ayar seçildi. Lütfen geçerli bir yerel ayar seçin."
+
+#: src/Shortcodes/ProductTableShortcode.php:161
+#: src/Shortcodes/templates/product-card.php:60
+#: src/Rest/templates/search-results.php:86
+#: src/Shortcodes/templates/lists/simplified-list.php:66
+#: src/Shortcodes/templates/lists/list-with-description.php:72
+#: src/Shortcodes/templates/lists/horizontal-cards.php:74
+msgid "Is prime"
+msgstr "Prime"
+
+#: src/Localization/AdminTranslations.php:288
+msgid "Italy"
+msgstr "İtalya"
+
+#: src/Localization/AdminTranslations.php:289
+msgid "Japan"
+msgstr "Japonya"
+
+#: src/Localization/AdminTranslations.php:240
+msgid "Label"
+msgstr "Etiket"
+
+#: src/Localization/AdminTranslations.php:60
+msgid "Language"
+msgstr "Dil"
+
+#: src/Localization/AdminTranslations.php:63
+msgid "Language of Preference"
+msgstr "Tercih Ettiğiniz Dil"
+
+#: src/Localization/AdminTranslations.php:146
+msgid ""
+"Learn how to create product listings using Hostinger's affiliate plugin – "
+"and start earning commission."
+msgstr ""
+"Hostinger'ın affiliate eklentisini kullanarak nasıl ürün listeleri "
+"oluşturacağınızı öğrenin ve komisyon kazanmaya başlayın."
+
+#: src/Localization/AdminTranslations.php:147
+msgid ""
+"Learn how to use Hostinger's Amazon Affiliate with our tutorials and "
+"documentations"
+msgstr ""
+"Rehberlerimiz ve belgelerimiz sayesinde Hostinger'ın Amazon Affiliate'ini "
+"nasıl kullanacağınızı öğrenin"
+
+#: src/Localization/AdminTranslations.php:127
+msgid "Learn how to use our affiliate plugin."
+msgstr "Affiliate eklentimizi nasıl kullanacağınızı öğrenin."
+
+#: src/Localization/AdminTranslations.php:149
+msgid "Learn how to use our plugin"
+msgstr "Eklentimizi nasıl kullanacağınızı öğrenin"
+
+#: src/Localization/AdminTranslations.php:145
+msgid "Learn more on how to use this plugin"
+msgstr "Bu eklentinin nasıl kullanılacağı hakkında daha fazla bilgi edinin"
+
+#: src/Localization/AdminTranslations.php:159
+msgid "Leave without saving"
+msgstr "Kaydetmeden ayrılın"
+
+#: src/Localization/AdminTranslations.php:99
+msgid "Link Amazon Products"
+msgstr "Amazon Ürünleri Bağlantısı"
+
+#: src/Localization/AdminTranslations.php:83
+#| msgid ""
+#| "Link your Amazon account to your website, start promoting products, and "
+#| "earn rewards."
+msgid ""
+"Link your Amazon account to your website, start promoting products, and earn "
+"rewards. No API key required."
+msgstr ""
+"Amazon hesabınızı web sitenize bağlayın, ürünleri tanıtmaya başlayın ve "
+"ödüller kazanın."
+
+#: src/Localization/AdminTranslations.php:20
+msgid "Log in to Amazon Associate dashboard"
+msgstr "Amazon Associate kontrol panelinde oturum açın"
+
+#: src/Localization/AdminTranslations.php:22
+msgid "Login"
+msgstr "Giriş"
+
+#: src/Errors/AmazonApiError.php:64
+msgid ""
+"Looks like there's a configuration issue with your Amazon Associates account."
+" The access key you provided is not linked to a primary store in your "
+"approved Amazon Associates account. To fix this, head over to Associate "
+"Central and check your account settings. Make sure the access key you're "
+"using is associated with a primary store that's been approved by Amazon "
+"Associates."
+msgstr ""
+"Amazon Associates hesabınızla ilgili bir yapılandırma sorunu var gibi "
+"görünüyor. Sağladığınız erişim anahtarı, onaylı Amazon Associates "
+"hesabınızdaki bir birincil mağazaya bağlı değil. Bunu düzeltmek için "
+"Associate Central'a gidin ve hesap ayarlarınızı kontrol edin. Kullandığınız "
+"erişim anahtarının Amazon Associates tarafından onaylanmış bir birincil "
+"mağaza ile ilişkili olduğundan emin olun."
+
+#: src/Errors/AmazonApiError.php:94
+msgid ""
+"Looks like there's a configuration issue with your Amazon Associates account."
+" The access key you provided is not valid. To fix this, head over to "
+"Associate Central and check your account settings."
+msgstr ""
+"Amazon Associates hesabınızla ilgili bir yapılandırma sorunu var gibi "
+"görünüyor. Sağladığınız erişim anahtarı geçerli değil. Bunu düzeltmek için "
+"Associate Central'a gidin ve hesap ayarlarınızı kontrol edin."
+
+#: src/Errors/AmazonApiError.php:69
+msgid ""
+"Looks like there's a configuration issue with your Amazon Associates account."
+" The partner tag you provided is not linked to the access key you’re using. "
+"To fix this, head over to Associate Central and check your account settings. "
+"Make sure the partner tag you're using is associated with a valid store in "
+"your Amazon Associates account for the requested marketplace."
+msgstr ""
+"Amazon Associates hesabınızla ilgili bir yapılandırma sorunu var gibi "
+"görünüyor. Sağladığınız iş ortağı etiketi, kullandığınız erişim anahtarına "
+"bağlı değil. Bunu düzeltmek için Associate Central'a gidin ve hesap "
+"ayarlarınızı kontrol edin. Kullandığınız iş ortağı etiketinin, istenen pazar "
+"yeri için Amazon Associate hesabınızdaki geçerli bir mağazayla ilişkili "
+"olduğundan emin olun."
+
+#: src/Errors/AmazonApiError.php:96
+msgid ""
+"Make sure the access key you're using is correct. If you're still having "
+"trouble after checking your settings, contact Amazon Associates support for "
+"further assistance."
+msgstr ""
+"Kullandığınız erişim anahtarının doğru olduğundan emin olun. Ayarlarınızı "
+"kontrol ettikten sonra hala sorun yaşıyorsanız daha fazla yardım için Amazon "
+"Associates desteği ile iletişime geçin."
+
+#: src/Localization/AdminTranslations.php:131
+msgid "Manage"
+msgstr "Yönet"
+
+#: src/Localization/AdminTranslations.php:17
+msgid "Manage marketplaces"
+msgstr "Pazar yerlerini yönetin"
+
+#: src/Localization/AdminTranslations.php:139
+msgid "Manage table"
+msgstr "Tabloyu yönet"
+
+#: src/Localization/AdminTranslations.php:116
+msgid "Manage your Amazon API and other configurations"
+msgstr "Amazon API'nizi ve diğer yapılandırmalarınızı yönetin"
+
+#: src/Localization/AdminTranslations.php:129
+#: src/Localization/AdminTranslations.php:187
+msgid "Manage your Amazon API and other settings."
+msgstr "Amazon API'nizi ve diğer ayarlarınızı yönetin."
+
+#: src/Localization/AdminTranslations.php:110
+#, fuzzy
+msgid "Marketplace availability by country"
+msgstr "Ülkeye göre Marketplace kullanılabilirliği"
+
+#: src/Localization/AdminTranslations.php:26
+#: src/Localization/AdminTranslations.php:153
+#: src/Localization/AdminTranslations.php:237
+msgid "Menu"
+msgstr "Menü"
+
+#: src/Localization/AdminTranslations.php:71
+msgid "Mercado Livre"
+msgstr "Mercado Livre"
+
+#: src/Localization/AdminTranslations.php:73
+msgid "Mercado Livre Partner"
+msgstr "Mercado Livre Ortağı"
+
+#: src/Localization/AdminTranslations.php:111
+#, fuzzy
+msgid "Mercado Livre Partner settings"
+msgstr "Mercado Livre Ortak ayarları"
+
+#: src/Localization/AdminTranslations.php:290
+msgid "Mexico"
+msgstr "Meksika"
+
+#: src/Localization/AdminTranslations.php:267
+msgid "More information"
+msgstr "Daha fazla bilgi"
+
+#: src/Localization/AdminTranslations.php:108
+msgid "Multiple Product List"
+msgstr "Çoklu Ürün Listesi"
+
+#: src/Localization/AdminTranslations.php:277
+msgid "Name"
+msgstr "İsim"
+
+#: src/Localization/AdminTranslations.php:253
+msgid "Name field not added to all product data rows."
+msgstr "Ad alanı tüm ürün veri satırlarına eklenmemiş."
+
+#: src/Localization/AdminTranslations.php:291
+msgid "Netherlands"
+msgstr "Hollanda"
+
+#: src/Localization/AdminTranslations.php:120
+msgid "New comparison table"
+msgstr "Yeni karşılaştırma tablosu"
+
+#: src/Localization/AdminTranslations.php:182
+msgid "New table"
+msgstr "Yeni tablo"
+
+#: src/Shortcodes/templates/product-list.php:28
+msgid "No layout selected."
+msgstr "Düzen seçilmedi."
+
+#: src/Localization/AdminTranslations.php:260
+msgid "No matching options"
+msgstr "Eşleştirme seçeneği yok"
+
+#: src/Localization/AdminTranslations.php:220
+msgid "No options"
+msgstr "Seçenek yok"
+
+#: src/Setup/Blocks.php:203
+msgid "No products found"
+msgstr "Ürün bulunamadı"
+
+#: src/Errors/AmazonApiError.php:99 src/Rest/ItemsRoutes.php:67
+msgid "No results found."
+msgstr "Sonuç bulunamadı."
+
+#: src/Localization/AdminTranslations.php:304
+msgid "Not now"
+msgstr "Şimdi olmaz"
+
+#: src/Localization/AdminTranslations.php:133
+msgid "Nothing found"
+msgstr "Hiçbir şey bulunamadı"
+
+#: src/Localization/AdminTranslations.php:69
+msgid ""
+"Once you remove it, fetching products from this marketplace in WordPress "
+"will be turned off. Your existing product listings won\\’t be affected. You "
+"can re-add this marketplace anytime."
+msgstr ""
+"Bunu kaldırdığınızda, WordPress'te bu pazaryerinden ürün getirme "
+"kapatılacaktır. Mevcut ürün listeleriniz etkilenmeyecektir. Bu pazaryerini "
+"istediğiniz zaman yeniden ekleyebilirsiniz."
+
+#: src/Localization/AdminTranslations.php:175
+msgid "Open full guide"
+msgstr "Tam kılavuzu aç"
+
+#: src/Localization/AdminTranslations.php:117
+msgid "Open guide"
+msgstr "Açık rehber"
+
+#: src/Localization/AdminTranslations.php:55
+msgid "Optional"
+msgstr "Opsiyonel"
+
+#: src/Errors/AmazonApiError.php:53
+msgid "OR"
+msgstr "VEYA"
+
+#: src/Localization/AdminTranslations.php:208
+msgid "or"
+msgstr "veya"
+
+#: src/Localization/AdminTranslations.php:36
+msgid "Paste the ASIN code or type to search for products you want to promote."
+msgstr ""
+"Tanıtmak istediğiniz ürünleri aramak için ASIN kodunu yapıştırın veya yazın."
+
+#: src/Localization/AdminTranslations.php:48
+msgid ""
+"Paste the Product ID or type to search for products you want to promote."
+msgstr ""
+"Tanıtmak istediğiniz ürünleri aramak için Ürün Kimliğini yapıştırın veya "
+"yazın."
+
+#: src/Localization/AdminTranslations.php:276
+msgid "Paste the shortcode in Block Editor where you want the table to appear."
+msgstr ""
+"Kısa kodu Blok Düzenleyici'de tablonun görünmesini istediğiniz yere "
+"yapıştırın."
+
+#: src/Localization/AdminTranslations.php:31
+#: src/Localization/AdminTranslations.php:43
+#: src/Localization/AdminTranslations.php:197
+msgid "Paste your affiliate link"
+msgstr "Affiliate bağlantınızı yapıştırın"
+
+#: src/Shortcodes/ShortcodeManager.php:56
+msgid "Please choose display type!"
+msgstr "Lütfen ekran tipini seçin!"
+
+#: src/Localization/AdminTranslations.php:184
+msgid "Please enter a keyword for search!"
+msgstr "Lütfen arama için bir anahtar kelime girin!"
+
+#: src/Shortcodes/ProductListShortcode.php:113
+#| msgid "Please enter keywords!"
+msgid "Please enter keyword(-s)!"
+msgstr "Lütfen anahtar kelimeleri girin!"
+
+#: src/Shortcodes/ProductCardShortcode.php:88
+#: src/Shortcodes/ProductListShortcode.php:125
+msgid "Please enter product(-s) ASIN(-s)!"
+msgstr "Lütfen ürün ASIN'lerini girin!"
+
+#: src/Localization/AdminTranslations.php:292
+msgid "Poland"
+msgstr "Polonya"
+
+#: src/Repositories/TableRepository.php:298
+#: src/Localization/AdminTranslations.php:266
+msgid "Price"
+msgstr "Fiyat"
+
+#: src/Repositories/TableRepository.php:299
+msgid "Prime Status"
+msgstr "Prime Durumu"
+
+#: src/Setup/Blocks.php:238
+msgid "product"
+msgstr "ürün"
+
+#: src/Localization/AdminTranslations.php:200
+msgid "Product data"
+msgstr "Ürün verileri"
+
+#: src/Localization/AdminTranslations.php:118
+msgid "Product ID"
+msgstr "Ürün Kimliği"
+
+#: src/Localization/AdminTranslations.php:195
+msgid "Product URL"
+msgstr "Ürün URL'si"
+
+#: src/Localization/AdminTranslations.php:274
+msgid "Product visible"
+msgstr "Ürün görünür"
+
+#: src/Localization/AdminTranslations.php:270
+msgid "Products"
+msgstr "Ürünler"
+
+#: src/Setup/Blocks.php:239
+msgid "products"
+msgstr "ürünler"
+
+#: src/Shortcodes/ProductCardShortcode.php:98
+#: src/Shortcodes/ProductListShortcode.php:136
+msgid "Products not fetched from DB and/or API. Please check debug logs."
+msgstr ""
+"Ürünler DB ve/veya API'den getirilemedi. Lütfen hata ayıklama günlüklerini "
+"kontrol edin."
+
+#. %s: Amazon store region
+#: src/Setup/Blocks.php:188
+#, php-format
+msgid ""
+"Products that shown in here is from your store region (%1$s). You can change "
+"store region in <a href=\"%2$s\">Settings page</a>."
+msgstr ""
+"Burada gösterilen ürünler mağaza bölgenize (%1$s) aittir. Mağaza bölgenizi "
+"<a href=\"%2$s\">Ayarlar sayfasından</a> değiştirebilirsiniz."
+
+#: src/Localization/AdminTranslations.php:194
+msgid "Products to be compared"
+msgstr "Karşılaştırılacak ürünler"
+
+#: src/Localization/AdminTranslations.php:233
+msgid "Publish"
+msgstr "Yayınla"
+
+#: src/Localization/AdminTranslations.php:32
+#: src/Localization/AdminTranslations.php:44
+#: src/Localization/AdminTranslations.php:173
+msgid "Publish the post"
+msgstr "Gönderiyi yayınla"
+
+#: src/Localization/AdminTranslations.php:230
+msgid "Published"
+msgstr "Yayınlandı"
+
+#: src/Localization/AdminTranslations.php:107
+msgid "Put focus on one product only."
+msgstr "Yalnızca tek bir ürüne odaklanın."
+
+#: src/Localization/AdminTranslations.php:225
+msgid "Quick way to add this table inside the Block Editor."
+msgstr "Bu tabloyu Blok Düzenleyici'ye hızlıca ekleyin."
+
+#: src/Localization/AdminTranslations.php:176
+msgid "Read full documentation"
+msgstr "Belgelerin tamamını okuyun"
+
+#: src/Localization/AdminTranslations.php:74
+msgid "Remove"
+msgstr "Kaldır"
+
+#: src/Localization/AdminTranslations.php:67
+msgid "Remove Amazon?"
+msgstr "Amazon'u kaldıralım mı?"
+
+#: src/Localization/AdminTranslations.php:239
+msgid "Remove highlight"
+msgstr "Vurgulamayı kaldırın"
+
+#: src/Localization/AdminTranslations.php:68
+msgid "Remove Mercado Livre?"
+msgstr "Mercado Livre'yi kaldıralım mı?"
+
+#: src/Errors/AmazonApiError.php:102
+msgid "Request to Amazon API failed."
+msgstr "Amazon API isteği başarısız oldu."
+
+#: src/Localization/AdminTranslations.php:244
+msgid "Row data"
+msgstr "Satır verileri"
+
+#: src/Localization/AdminTranslations.php:271
+msgid "Rows"
+msgstr "Sıralar"
+
+#: src/Localization/AdminTranslations.php:294
+msgid "Saudi Arabia"
+msgstr "Suudi Arabistan"
+
+#: src/Localization/AdminTranslations.php:80
+msgid "Save"
+msgstr "Kaydet"
+
+#: src/Localization/AdminTranslations.php:160
+msgid "Save & leave"
+msgstr "Kaydet ve ayrıl"
+
+#: src/Localization/AdminTranslations.php:156
+#: src/Localization/AdminTranslations.php:245
+msgid "Save changes"
+msgstr "Değişiklikleri kaydet"
+
+#: src/Localization/AdminTranslations.php:157
+msgid "Save changes?"
+msgstr "Değişiklikleri kaydedelim mi?"
+
+#: src/Setup/Blocks.php:179 src/Localization/AdminTranslations.php:188
+msgid "Search"
+msgstr "Ara"
+
+#: src/Localization/AdminTranslations.php:100
+msgid ""
+"Search for <b>Link to Amazon Products</b> in Gutenberg Blocks, find the "
+"product(s) you want to add, and publish the post."
+msgstr ""
+"Gutenberg Block'ta <b>Amazon Ürünlerine Bağlantı</b> için arama yapın, "
+"eklemek istediğiniz ürünü/ürünleri bulun ve gönderiyi yayınlayın."
+
+#: src/Setup/Blocks.php:217
+msgid "Search for product name that you want to add to your blog post."
+msgstr "Blog yazınıza eklemek istediğiniz ürün adını arayın."
+
+#: src/Localization/AdminTranslations.php:243
+msgid "Search for products or enter Product ID"
+msgstr "Ürünleri arayın veya Ürün Kimliğini girin"
+
+#: src/Localization/AdminTranslations.php:242
+msgid "Search for products or enter the ASIN code"
+msgstr "Ürünleri arayın veya ASIN kodunu girin"
+
+#: src/Localization/AdminTranslations.php:221
+msgid "Search for the product in Amazon"
+msgstr "Ürünü Amazon'da ara"
+
+#: src/Setup/Blocks.php:200 src/Setup/Blocks.php:211
+msgid "Search icon"
+msgstr "Arama simgesi"
+
+#: src/Setup/Blocks.php:177
+msgid "Search product name ..."
+msgstr "Ürün adını yazıp arayın..."
+
+#: src/Localization/AdminTranslations.php:183
+msgid "Search your table collections"
+msgstr "Tablo koleksiyonlarınızda arama yapın"
+
+#: src/Setup/Blocks.php:214
+msgid "Searched products will appear here"
+msgstr "Aranan ürünler burada görünecek"
+
+#: src/Localization/AdminTranslations.php:59
+msgid "Secret key"
+msgstr "Gizli anahtar"
+
+#: src/Localization/AdminTranslations.php:78
+msgid "Secret key contains of numbers, letters and special characters"
+msgstr "Gizli anahtar rakamlar, harfler ve özel karakterler içerir"
+
+#: src/Localization/AdminTranslations.php:77
+msgid "Secret key must be 40 characters long"
+msgstr "Gizli anahtar 40 karakter uzunluğunda olmalıdır"
+
+#: src/Localization/AdminTranslations.php:25
+#, fuzzy
+msgid "Select a marketplace you’ll use to promote products"
+msgstr "Ürünleri tanıtmak için kullanacağınız bir pazar yeri seçin"
+
+#: src/Setup/Blocks.php:234
+msgid "Select at least 2 products to continue"
+msgstr "Devam etmek için en az 2 ürün seçin"
+
+#: src/Localization/AdminTranslations.php:61
+msgid "Select at least one provider"
+msgstr "En az bir sağlayıcı seçin"
+
+#: src/Localization/AdminTranslations.php:56
+msgid "Select country first to find matching tracking ID"
+msgstr "Eşleşen izleme kimliğini bulmak için önce ülkeyi seçin"
+
+#: src/Localization/AdminTranslations.php:215
+#, fuzzy
+msgid "Select your country"
+msgstr "Ülkenizi seçin"
+
+#: src/Setup/Blocks.php:240
+msgid "selected"
+msgstr "seçildi"
+
+#: src/Localization/AdminTranslations.php:115
+#: src/Localization/AdminTranslations.php:128
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: src/Localization/AdminTranslations.php:226
+msgid "Shortcode"
+msgstr "Kısa kod"
+
+#: src/Localization/AdminTranslations.php:143
+msgid "Shortcode copied!"
+msgstr "Kısa kod kopyalandı!"
+
+#: src/Localization/AdminTranslations.php:293
+msgid "Singapore"
+msgstr "Singapur"
+
+#: src/Localization/AdminTranslations.php:106
+msgid "Single Product Card"
+msgstr "Tek Ürün Kartı"
+
+#: src/Localization/AdminTranslations.php:119
+#, fuzzy
+msgid "Something went wrong"
+msgstr "Bir şeyler ters gitti"
+
+#: src/Rest/TableRoutes.php:207
+msgid "Sorry, table does not exists."
+msgstr "Üzgünüz, tablo mevcut değil."
+
+#: src/Rest/TableRoutes.php:29 src/Rest/TableRoutes.php:180
+#: src/Rest/TableRoutes.php:241
+msgid "Sorry, table id missing"
+msgstr "Üzgünüz, tablo kimliği eksik"
+
+#: src/Rest/TableRoutes.php:153 src/Rest/TableRoutes.php:194
+#: src/Rest/ItemsRoutes.php:47 src/Rest/ItemsRoutes.php:123
+msgid "Sorry, there are validation errors."
+msgstr "Üzgünüz, doğrulama hataları var."
+
+#: src/Api/Mercado/Client.php:83 src/Api/Mercado/ClientMercado.php:69
+#: src/Api/Amazon/ProxyApi/Client.php:66
+msgid "Sorry, there was a problem with request."
+msgstr "Üzgünüz, istekle ilgili bir sorun oluştu."
+
+#: src/Rest/SettingsRoutes.php:200 src/Rest/SettingsRoutes.php:234
+msgid "Sorry, you are not allowed to do that."
+msgstr "Üzgünüm, bunu yapma izniniz yok."
+
+#: src/Localization/AdminTranslations.php:295
+msgid "Spain"
+msgstr "İspanya"
+
+#: src/Localization/AdminTranslations.php:93
+msgid "Start Earning in Four Easy Steps"
+msgstr "Dört Kolay Adımda Para Kazanmaya Başlayın"
+
+#: src/Localization/AdminTranslations.php:91
+msgid "Start Earning Now"
+msgstr "Şimdi Kazanmaya Başla"
+
+#: src/Localization/AdminTranslations.php:234
+msgid "Status"
+msgstr "Durum"
+
+#: src/Localization/AdminTranslations.php:296
+msgid "Sweden"
+msgstr "İsveç"
+
+#: src/Setup/Cpts.php:40
+msgid "Table"
+msgstr "Tablo"
+
+#: src/Repositories/TableRepository.php:279
+msgid "Table added feature is missing title."
+msgstr "Tabloya eklenen özelliğin başlığı eksik."
+
+#: src/Repositories/TableRepository.php:263
+msgid "Table added product is missing asin."
+msgstr "Tabloya eklenen ürünün ASIN'i eksik"
+
+#: src/Localization/AdminTranslations.php:179
+msgid "Table data will be shown in this page"
+msgstr "Tablo verileri bu sayfada gösterilecektir"
+
+#: src/Repositories/TableRepository.php:48
+#: src/Repositories/TableRepository.php:58
+#: src/Repositories/TableRepository.php:116
+#: src/Repositories/TableRepository.php:126 src/Rest/TableRoutes.php:253
+#: src/Rest/TableRoutes.php:263
+msgid "Table does not exist."
+msgstr "Tablo mevcut değil."
+
+#: src/Localization/AdminTranslations.php:192
+#: src/Localization/AdminTranslations.php:269
+msgid "Table name"
+msgstr "Tablo adı"
+
+#: src/Repositories/TableRepository.php:248
+msgid "Table name is missing."
+msgstr "Tablo adı eksik."
+
+#: src/Shortcodes/ProductTableShortcode.php:73
+msgid "Table not found or it is not published."
+msgstr "Tablo bulunamadı veya yayınlanmadı."
+
+#: src/Shortcodes/ProductTableShortcode.php:66
+msgid "Table not found."
+msgstr "Tablo bulunamadı."
+
+#: src/Repositories/TableRepository.php:269
+msgid "Table should have at least one feature added."
+msgstr "Tabloya en az bir özellik eklenmiş olmalıdır."
+
+#: src/Repositories/TableRepository.php:252
+msgid "Table should have at least one product added."
+msgstr "Tabloya en az bir ürün eklenmelidir."
+
+#: src/Repositories/TableRepository.php:285
+msgid "Table status is missing."
+msgstr "Tablo durumu eksik."
+
+#: src/Localization/AdminTranslations.php:218
+msgid "Table was successfully created"
+msgstr "Tablo başarıyla oluşturuldu"
+
+#: src/Localization/AdminTranslations.php:227
+msgid "Table was successfully deleted"
+msgstr "Tablo başarıyla silindi"
+
+#: src/Localization/AdminTranslations.php:214
+msgid "Table was successfully saved"
+msgstr "Tablo başarıyla kaydedildi"
+
+#: src/Localization/AdminTranslations.php:102
+msgid ""
+"That's it – every time visitors buy the product from your post, you will "
+"earn a commission from Amazon."
+msgstr ""
+"İşte bu kadar! Ziyaretçiler gönderinizden ürünü her satın aldığında, "
+"Amazon'dan bir komisyon kazanacaksınız."
+
+#: src/Localization/AdminTranslations.php:174
+#| msgid ""
+#| "That’s it! After your post published, whenever your visitor buy the "
+#| "product from your post, you will earn commissions."
+msgid ""
+"That's it! After your post published, whenever your visitor buy the product "
+"from your post, you will earn commissions."
+msgstr ""
+"İşte bu kadar! Gönderiniz yayınlandıktan sonra ziyaretçiniz paylaşımınızdan "
+"ürün satın aldığında komisyon kazanırsınız."
+
+#: src/Localization/AdminTranslations.php:38
+#: src/Localization/AdminTranslations.php:50
+msgid ""
+"That's it! Whenever a visitor buys a product through your link, you'll earn "
+"commission."
+msgstr ""
+"İşte bu kadar! Bir ziyaretçi bağlantınız üzerinden bir ürün satın aldığında "
+"komisyon kazanırsınız."
+
+#. %s: URL.
+#: src/Errors/AmazonApiError.php:47
+#, php-format
+msgid ""
+"The Access Key is not enabled for accessing Product Advertising API. For "
+"information on registering for Product Advertising API, see <a href=\"%s\" "
+"target=\"_blank\">Register for Product Advertising API</a>"
+msgstr ""
+"Erişim Anahtarı, Ürün Reklamcılığı API'sine erişim için "
+"etkinleştirilmemiştir. Ürün Reklamcılığı API'sine kaydolma hakkında bilgi "
+"için şuraya gidiniz: <a href=\"%s\" target=\"_blank\">Ürün Reklamcılığı "
+"API'si Kaydı</a>"
+
+#. %s: URL.
+#: src/Errors/AmazonApiError.php:56
+#, php-format
+msgid ""
+"The Access Key is not enabled for accessing this version of Product "
+"Advertising API. Please migrate your credentials as referred here <a "
+"href=\"%s\" target=\"_blank\">Managing your Existing AWS Security "
+"Credentials for the Product Advertising API</a>."
+msgstr ""
+"Erişim Anahtarı, Ürün Reklamcılığı API'sinin bu sürümüne erişim için "
+"etkinleştirilmemiştir. Lütfen kimlik bilgilerinizi burada belirtildiği gibi "
+"taşıyın: <a href=\"%s\" target=\"_blank\">Ürün Reklamcılığı API'si için "
+"Mevcut AWS Güvenlik Kimlik Bilgisi Yönetimi </a>."
+
+#: hostinger-affiliate-plugin.php:104
+#, php-format
+msgid ""
+"The Hostinger Affiliate plugin requires minimum PHP version of <b>%s</b>. "
+msgstr "Hostinger Affiliate eklentisi minimum <b>%s</b> PHP sürümü gerektirir."
+
+#: src/Services/ProductFetchService.php:190
+#| msgid ""
+#| "There is an issue displaying Amazon products. Please contact "
+#| "administrator to check that."
+msgid ""
+"There is an issue displaying Amazon products. Please contact the "
+"administrator to check that."
+msgstr ""
+"Amazon ürünlerini görüntülerken bir sorun yaşandı. Bunu kontrol etmek için "
+"lütfen yöneticiyle iletişime geçin."
+
+#: src/Errors/AmazonApiError.php:36 src/Errors/AmazonApiError.php:89
+msgid "There seems to be a technical problem with your request."
+msgstr "Talebinizle ilgili teknik bir sorun var."
+
+#: src/Errors/AmazonApiError.php:74
+msgid ""
+"There was a problem with your request. Amazon limits the number of requests "
+"you can make to their Product Advertising API. Note that your account will "
+"lose access to Product Advertising API 5.0 if it has not generated referring "
+"sales for a consecutive 30-day period."
+msgstr ""
+"İsteğinizle ilgili bir sorun oluştu. Amazon, Ürün Reklamcılığı API'sine "
+"yapabileceğiniz istek sayısını sınırlar. Hesabınızın art arda 30 günlük bir "
+"süre boyunca yönlendiren satışlar oluşturmaması durumunda Ürün Reklamcılığı "
+"API 5.0'a erişimini kaybedeceğini unutmayın. "
+
+#: src/Localization/AdminTranslations.php:191
+msgid "There was an error saving your settings: "
+msgstr "Ayarlarınız kaydedilirken bir hata oluştu:"
+
+#: src/Localization/AdminTranslations.php:185
+msgid "There was an error searching for items: "
+msgstr "Öğeler aranırken bir hata oluştu:"
+
+#: src/Localization/AdminTranslations.php:186
+msgid "There was fatal server error while processing your request."
+msgstr "İsteğiniz işlenirken önemli bir sunucu hatası oluştu."
+
+#: src/Localization/AdminTranslations.php:216
+#: src/Localization/AdminTranslations.php:219
+msgid "This field is required"
+msgstr "Bu alan gerekli"
+
+#: src/Localization/AdminTranslations.php:104
+msgid "Three Templates for Your Product(s) Block"
+msgstr "Ürün(ler) Bloğunuz için Üç Şablon"
+
+#: src/Repositories/TableRepository.php:297
+#: src/Localization/AdminTranslations.php:265
+msgid "Thumbnail"
+msgstr "Küçük resim"
+
+#: src/Repositories/TableRepository.php:296
+#: src/Localization/AdminTranslations.php:264
+msgid "Title"
+msgstr "Başlık"
+
+#: src/Localization/AdminTranslations.php:33
+#: src/Localization/AdminTranslations.php:45
+msgid "To start promoting products, first create a post."
+msgstr "Ürünleri tanıtmaya başlamak için önce bir gönderi oluşturun."
+
+#: src/Localization/AdminTranslations.php:65
+msgid "Tracking ID"
+msgstr "Takip Kimliği"
+
+#: src/Localization/AdminTranslations.php:52
+msgid "Tracking ID connected"
+msgstr "İzleme kimliği bağlandı"
+
+#: src/Localization/AdminTranslations.php:217
+msgid ""
+"Tracking ID format wrong. Lowercase letters, digits and _-. special chars "
+"are allowed."
+msgstr ""
+"İzleme kimliği formatı yanlış. Küçük harflere, rakamlara ve _-. özel "
+"karakterlere izin verilir."
+
+#: src/Localization/AdminTranslations.php:121
+#: src/Localization/AdminTranslations.php:135
+msgid "Try searching for something else"
+msgstr "Başka bir şey aramayı deneyin"
+
+#: src/Localization/AdminTranslations.php:297
+msgid "Turkey"
+msgstr "Türkiye"
+
+#: src/Localization/AdminTranslations.php:140
+msgid "Tutorial"
+msgstr "Rehber"
+
+#: src/Localization/AdminTranslations.php:161
+msgid "Tutorial video by"
+msgstr "Video Rehberi -"
+
+#: src/Localization/AdminTranslations.php:278
+msgid "Type"
+msgstr "Tip"
+
+#: src/Localization/AdminTranslations.php:254
+msgid "Type field not added to all product data rows."
+msgstr "Tür alanı tüm ürün veri satırlarına eklenmedi."
+
+#: src/Localization/AdminTranslations.php:298
+msgid "United Arab Emirates"
+msgstr "Birleşik Arap Emirlikleri"
+
+#: src/Localization/AdminTranslations.php:299
+msgid "United Kingdom"
+msgstr "Birleşik Krallık"
+
+#: src/Localization/AdminTranslations.php:300
+msgid "United States"
+msgstr "Birleşik Devletler"
+
+#: src/Localization/Messages.php:24
+msgid "Unknown display type. Please re-select display type."
+msgstr "Bilinmeyen görüntüleme türü. Lütfen görüntüleme türünü yeniden seçin."
+
+#: src/Localization/AdminTranslations.php:90
+msgid ""
+"Unlock the full potential of your website – monetize it with our plugin to "
+"earn more."
+msgstr ""
+"Web sitenizin tüm potansiyelini ortaya çıkarın. Daha fazla kazanmak için "
+"eklentimizle para kazanın."
+
+#: src/Localization/AdminTranslations.php:232
+msgid "Unpublish"
+msgstr "Yayından Kaldır"
+
+#: src/Localization/AdminTranslations.php:257
+msgid "Use the saved table configuration"
+msgstr "Kaydedilen tablo yapılandırmasını kullanın"
+
+#: src/Localization/AdminTranslations.php:130
+msgid "View guide"
+msgstr "Rehberi görüntüle"
+
+#: src/Localization/AdminTranslations.php:229
+msgid "Visibility"
+msgstr "Görünürlük"
+
+#: src/Models/Product.php:284
+msgid "Watch on Amazon Prime"
+msgstr "Amazon Prime'da izleyin"
+
+#: src/Localization/AdminTranslations.php:89
+#| msgid "Welcome to Hostinger Amazon Affiliate Connector!"
+msgid "Welcome to Hostinger Amazon Affiliate!"
+msgstr "Hostinger, Amazon Affiliate'e Hoş Geldiniz!"
+
+#: src/Localization/AdminTranslations.php:273
+msgid "What's an ASIN code?"
+msgstr "ASIN kodu nedir?"
+
+#: src/Localization/AdminTranslations.php:98
+msgid "Write down your content that you want to link your Amazon product with."
+msgstr "Amazon ürününüzü bağlamak istediğiniz içeriğinizi yazın."
+
+#. %s: PHP version
+#: hostinger-affiliate-plugin.php:108
+#, php-format
+msgid "You are running <b>%s</b> PHP version."
+msgstr "<b>%s</b> PHP sürümünü çalıştırıyorsunuz. "
+
+#: src/Localization/AdminTranslations.php:272
+msgid ""
+"You can add unlimited products, but only 6 can be shown in a published table."
+msgstr ""
+"Sınırsız ürün ekleyebilirsiniz ancak yayınlanan bir tabloda yalnızca 6 ürün "
+"gösterilebilir."
+
+#: src/Localization/AdminTranslations.php:302
+msgid ""
+"You can add your comparison table to any post. Whenever a visitor buys a "
+"product through your affiliate link, you'll earn commission."
+msgstr ""
+"Karşılaştırma tablonuzu herhangi bir gönderiye ekleyebilirsiniz. Bir "
+"ziyaretçi affiliate bağlantınız üzerinden bir ürün satın aldığında komisyon "
+"kazanırsınız."
+
+#: src/Localization/AdminTranslations.php:213
+#| msgid ""
+#| "You can also hide products so they don’t appear in the table. Products "
+#| "that you delete will need to be added again."
+msgid ""
+"You can also hide products so they don't appear in the table. Products that "
+"you delete will need to be added again."
+msgstr ""
+"Ayrıca tabloda görünmemeleri için ürünleri gizleyebilirsiniz. Sildiğiniz "
+"ürünlerin tekrar eklenmesi gerekecektir."
+
+#: src/Localization/AdminTranslations.php:210
+msgid ""
+"You can also unpublish your table. Deleting it will cause you to lose all "
+"added products."
+msgstr ""
+"Tablonuzu yayından da kaldırabilirsiniz. Silinmesi, eklenen tüm ürünleri "
+"kaybetmenize neden olacaktır."
+
+#: src/Localization/AdminTranslations.php:258
+msgid "You can edit the existing table configuration after this step"
+msgstr "Bu adımdan sonra mevcut tablo konfigürasyonunu düzenleyebilirsiniz."
+
+#: src/Localization/AdminTranslations.php:23
+#, fuzzy
+msgid ""
+"You can select both marketplaces and then easily add affiliate links to your "
+"content."
+msgstr ""
+"Her iki pazaryerini de seçebilir ve ardından içeriğinize kolayca satış "
+"ortaklığı bağlantıları ekleyebilirsiniz."
+
+#: src/Localization/AdminTranslations.php:251
+#| msgid "You have added too many products. Only 5 are allowed."
+msgid "You have added too many products to display. Only 6 are allowed."
+msgstr "Çok fazla ürün eklediniz. Sadece 5 ürüne izin verilmektedir."
+
+#: src/Localization/AdminTranslations.php:158
+msgid "You have unsaved changes that will be lost if you leave."
+msgstr "Kaydedilmemiş değişiklikleriniz var ve ayrılırsanız bunlar kaybolacak."
+
+#: src/Localization/AdminTranslations.php:255
+msgid ""
+"You need to add at least one row (title, select) to create a table. Check if "
+"all fields are filled."
+msgstr ""
+"Tablo oluşturmak için en az bir satır (başlık, seç) eklemeniz gerekir. Tüm "
+"alanların dolu olup olmadığını kontrol edin."
+
+#: src/Localization/AdminTranslations.php:261
+#| msgid ""
+#| "You need to add at least one row, two enabled products to save changes. "
+#| "Check if all added fields are filled."
+msgid ""
+"You need to add at least one row, two enabled products (max 5 products) to "
+"save changes. Check if all added fields are filled."
+msgstr ""
+"Değişiklikleri kaydetmek için en az bir satır ve iki etkin ürün eklemeniz "
+"gerekir. Eklenen tüm alanların doldurulup doldurulmadığını kontrol edin."
+
+#: src/Localization/AdminTranslations.php:170
+msgid ""
+"You need to choose the main layout for your product(s) block based on your "
+"needs. You can choose between single product, multiple product, or "
+"comparison."
+msgstr ""
+"İhtiyaçlarınıza göre ürün/bloklarınızın ana düzenini seçmeniz gerekir. Tek "
+"ürün, çoklu ürün veya karşılaştırma arasında seçim yapabilirsiniz."
+
+#: src/Localization/AdminTranslations.php:248
+msgid "You need to enter table name."
+msgstr "Tablo adını girmeniz gerekir."
+
+#: src/Localization/AdminTranslations.php:122
+msgid "Your comparison tables"
+msgstr "Karşılaştırma tablolarınız"
+
+#: src/Localization/AdminTranslations.php:181
+msgid "Your tables"
+msgstr "Tablolarınız"
